@@ -288,6 +288,9 @@ a:focus {
     padding: 20px; /* Add space inside the container */
     border-radius: 10px; /* Optional: rounded corners for the graph container */
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5); /* Optional: shadow for depth */
+    top: 10px;  /* Distance du haut */
+    left: 250px;  /* Distance de la gauche */
+    z-index: 5;
 }
 
 /* Adjust Plotly Graph inside the container */
@@ -309,14 +312,25 @@ a:focus {
     -o-background-size: cover;
 }
 
-.World-section img {
-    position: absolute;  /* Positionnement absolu par rapport au conteneur parent */
-    top: 100px;  /* Distance du haut */
-    left: -180px;  /* Distance de la gauche */
-    width: 350%;  /* Ajuster la largeur en pourcentage par rapport au parent */
-    max-width: 600%;  /* Pour ne pas dépasser la largeur du conteneur */
-    height: auto;  /* Maintenir les proportions */
-    z-index: 10;  /* Assure que l'image soit au-dessus du graphe */
+.perso-image {
+    position: absolute;  /* Positionnement absolu */
+    top: 100px;  /* Ajuste la distance du haut */
+    left: -350px;  /* Ajuste la distance de la gauche */
+    width: 500%;  /* Ajuste la largeur */
+    max-width: 400%;  /* Limite la largeur maximale */
+    height: auto;  /* Maintient les proportions */
+    z-index: 10;  /* Place au-dessus des autres éléments */
+}
+
+/* Styles pour l'image du cadre */
+.frame-image {
+    position: absolute;  /* Pas d'impact sur le positionnement global */
+    top: 50px;  /* Ajuste la distance du haut */
+    left: 80px
+    width: 600%;  /* Ajuste la taille */
+    max-width: 1300px;  /* Limite la largeur maximale */
+    height: 800;  /* Maintient les proportions */
+    z-index: 3;  /* Derrière l'image du personnage */
 }
 
 
