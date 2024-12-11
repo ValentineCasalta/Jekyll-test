@@ -311,10 +311,10 @@ a:focus {
 
 .World-section img {
     position: absolute;  /* Positionnement absolu par rapport au conteneur parent */
-    top: 50px;  /* Distance du haut */
-    left: 20px;  /* Distance de la gauche */
-    width: 250%;  /* Ajuster la largeur en pourcentage par rapport au parent */
-    max-width: 200%;  /* Pour ne pas dépasser la largeur du conteneur */
+    top: 100px;  /* Distance du haut */
+    left: -180px;  /* Distance de la gauche */
+    width: 350%;  /* Ajuster la largeur en pourcentage par rapport au parent */
+    max-width: 600%;  /* Pour ne pas dépasser la largeur du conteneur */
     height: auto;  /* Maintenir les proportions */
     z-index: 10;  /* Assure que l'image soit au-dessus du graphe */
 }
