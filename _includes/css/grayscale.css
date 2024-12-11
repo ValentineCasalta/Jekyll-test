@@ -289,8 +289,8 @@ a:focus {
     border-radius: 10px; /* Optional: rounded corners for the graph container */
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5); /* Optional: shadow for depth */
     top: 10px;  /* Distance du haut */
-    left: 250px;  /* Distance de la gauche */
-    z-index: 5;
+    left: 130px;  /* Distance de la gauche */
+    z-index: 7;
 }
 
 /* Adjust Plotly Graph inside the container */
@@ -300,6 +300,7 @@ a:focus {
 }
 
 .World-section {
+    position: relative;
     width: 100%;
     min-height: 100vh;
     padding: 50px 0;
@@ -314,25 +315,24 @@ a:focus {
 
 .perso-image {
     position: absolute;  /* Positionnement absolu */
-    top: 100px;  /* Ajuste la distance du haut */
-    left: -350px;  /* Ajuste la distance de la gauche */
+    top: 70px;  /* Ajuste la distance du haut */
+    left: -400px;  /* Ajuste la distance de la gauche */
     width: 500%;  /* Ajuste la largeur */
     max-width: 400%;  /* Limite la largeur maximale */
     height: auto;  /* Maintient les proportions */
     z-index: 10;  /* Place au-dessus des autres éléments */
 }
 
-/* Styles pour l'image du cadre */
 .frame-image {
-    position: absolute;  /* Pas d'impact sur le positionnement global */
-    top: 50px;  /* Ajuste la distance du haut */
-    left: 80px
-    width: 600%;  /* Ajuste la taille */
-    max-width: 1300px;  /* Limite la largeur maximale */
-    height: 800;  /* Maintient les proportions */
+    position: absolute;  /* Positionnement absolu */
+    top: -470px;  /* Distance du haut */
+    left: 50%;  /* Centré horizontalement */
+    transform: translateX(-50%);  /* Décale l'image de 50% de sa largeur pour la centrer */
+    width: 600%;  /* Ajuste la largeur */
+    max-width: 1200px;  /* Limite la largeur maximale */
+    height: 1500px;  /* Maintient la proportion */
     z-index: 3;  /* Derrière l'image du personnage */
 }
-
 
 
 .Diversity-section {
