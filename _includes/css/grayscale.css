@@ -263,6 +263,22 @@ a:focus {
     -o-background-size: cover;
 }
 
+
+.Entry-section {
+    display: table;
+    width: 100%;
+    height: auto;
+    padding: 100px 0;
+    text-align: center;
+    color: #ffffff;
+    background: url(/img/Entrance.webp) no-repeat bottom center scroll;
+    background-color: {{ site.color.primary-dark }};
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
 /* Graph container styling */
 .graph-container {
     position: relative; /* Allows absolute positioning of graph */
@@ -282,16 +298,28 @@ a:focus {
 
 .World-section {
     width: 100%;
-    height: 100vh;
+    min-height: 100vh;
     padding: 50px 0;
     color: #fff;
-    background: url(/img/Manoir.jpg) no-repeat center center scroll;
+    background: url(/img/back.jpg) repeat center center scroll;
     background-color: {{ site.color.primary-dark }};
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
 }
+
+.World-section img {
+    position: absolute;  /* Positionnement absolu par rapport au conteneur parent */
+    top: 50px;  /* Distance du haut */
+    left: 20px;  /* Distance de la gauche */
+    width: 250%;  /* Ajuster la largeur en pourcentage par rapport au parent */
+    max-width: 200%;  /* Pour ne pas dépasser la largeur du conteneur */
+    height: auto;  /* Maintenir les proportions */
+    z-index: 10;  /* Assure que l'image soit au-dessus du graphe */
+}
+
+
 
 .Diversity-section {
     display: table;

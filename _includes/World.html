@@ -1,18 +1,25 @@
-    <!-- World Section -->
-    <section id="World" class="content-section text-center">
-        <div class="World-section">
-            <div class="container">
-                <div class="col-lg-8 col-lg-offset-2">
-                    <p>An overview of horror movies around the world </p>
+<section id="World" class="content-section text-center">
+    <div class="World-section">
+        <div class="container">
+            <div class="col-lg-8 col-lg-offset-2">
+                <p>An overview of horror movies around the world</p>
 
-                    <div class="graph-container">
-                        {% include Themes_Across_Regions.html %}
-                    </div>                    
-                    
-                    <a href="#Diversity" class="btn btn-circle page-scroll">
-                        <i class="fa fa-angle-double-down animated"></i>
-                    </a>
+                <div class="row align-items-center">
+                    <div class="col-md-4">
+                        <img src="/img/perso.png" alt="Horror World" class="img-responsive">
+                    </div>
+
+                    <div class="col-md-8">
+                        <div class="graph-container">
+                            {% include Themes_Across_Regions.html %}
+                        </div>
+                    </div>
                 </div>
+                
+                <a href="#Diversity" class="btn btn-circle page-scroll">
+                    <i class="fa fa-angle-double-down animated"></i>
+                </a>
             </div>
         </div>
-    </section>
+    </div>
+</section>
