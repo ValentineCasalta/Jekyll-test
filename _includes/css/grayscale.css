@@ -131,20 +131,23 @@ a:focus {
     }
 }
 
+/* #################################################################################### */
+/* Intro */
+
 .intro {
     display: table;
     width: 100%;
-    height: auto;
-    padding: 100px 0;
+    height: 100vh; /* Utilise 100vh pour que l'élément prenne toute la hauteur de la fenêtre */
+    padding: 0; /* Supprime le padding pour éviter les espaces inutiles */
     text-align: center;
     color: #fff;
-    background: url(/img/Manoir.jpg) no-repeat bottom center scroll;
+    background: url(/img/paysage.png) no-repeat center center fixed; /* Centre l'image et la fixe */
     background-color: {{ site.color.primary-dark }};
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
+    background-size: cover; /* Couvre toute la surface de l'élément en respectant les proportions */
+    background-position: center center; /* Centre l'image sur les axes horizontal et vertical */
+    background-attachment: fixed; /* Fixe l'image en arrière-plan pour un effet de parallaxe */
 }
+
 
 .intro .intro-body {
     display: table-cell;
@@ -248,14 +251,18 @@ a:focus {
     }
 }
 
+/* #################################################################################### */
+/* About */
+
 .about-section {
     display: table;
     width: 100%;
-    height: auto;
+    height: 150vh;
+    min-height: 1080px;
     padding: 100px 0;
     text-align: center;
     color: #ffffff;
-    background: url(/img/Entrance.webp) no-repeat bottom center scroll;
+    background: url(/img/portail.png) no-repeat bottom center scroll;
     background-color: {{ site.color.primary-dark }};
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -263,20 +270,122 @@ a:focus {
     -o-background-size: cover;
 }
 
+.about-section .col-lg-8 {
+    position: absolute;
+    top: 180%; /* Placer à 50% de la hauteur de la section */
+    left: 35%; /* Placer à 50% de la largeur de la section */
+    transform: translate(-50%, -50%); /* Centrer le texte précisément */
+    text-align: center;
+}
+
+/* #################################################################################### */
+/* Entry */
 
 .Entry-section {
+    position: relative;
     display: table;
     width: 100%;
     height: auto;
+    min-height: 1080px;
     padding: 100px 0;
     text-align: center;
     color: #ffffff;
-    background: url(/img/Entrance.webp) no-repeat bottom center scroll;
+    background: url(/img/tap2windows2.png) no-repeat bottom center scroll;
     background-color: {{ site.color.primary-dark }};
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
+}
+
+/* Contenu textuel */
+.text_welcome1 {
+    position: absolute;
+    width: 700px; /* Largeur fixe */
+    left: 400px; /* Position fixe depuis la gauche */
+    top: 100px; /* Position fixe depuis le haut */
+    text-align: left;
+    color: #ffffff;
+    font-family: 'Open Sans', sans-serif;
+    z-index: 10;
+}
+
+/* Contenu textuel */
+.text_welcome2 {
+    position: absolute;
+    width: 700px; /* Largeur fixe */
+    left: 400px; /* Position fixe depuis la gauche */
+    top: 250px; /* Position fixe depuis le haut */
+    text-align: left;
+    color: #ffffff;
+    font-family: 'Open Sans', sans-serif;
+    z-index: 11;
+}
+
+/* Contenu textuel */
+.text_welcome3 {
+    position: absolute;
+    width: 700px; /* Largeur fixe */
+    left: 400px; /* Position fixe depuis la gauche */
+    top: 450px; /* Position fixe depuis le haut */
+    text-align: left;
+    color: #ffffff;
+    font-family: 'Open Sans', sans-serif;
+    z-index: 12;
+}
+
+/* Contenu textuel */
+.text_welcome4 {
+    position: absolute;
+    width: 700px; /* Largeur fixe */
+    left: 400px; /* Position fixe depuis la gauche */
+    top: 600px; /* Position fixe depuis le haut */
+    text-align: left;
+    color: #ffffff;
+    font-family: 'Open Sans', sans-serif;
+    z-index: 13;
+}
+
+/* Contenu textuel */
+.text_welcome5 {
+    position: absolute;
+    width: 900px; /* Largeur fixe */
+    left: 190px; /* Position fixe depuis la gauche */
+    top: 850px; /* Position fixe depuis le haut */
+    text-align: left;
+    color: #ffffff;
+    font-size: 100px; /* Forcer la taille du texte */
+    font-family: 'Open Sans', sans-serif;
+    z-index: 14;
+}
+
+
+/* Image du personnage */
+.perso_welcome {
+    position: absolute;
+    top: 7px; /* Position fixe depuis le haut */
+    left: 130px; /* Position fixe depuis la gauche */
+    width: 300px; /* Largeur fixe */
+    height: auto; /* Maintient les proportions */
+    z-index: 10;
+}
+
+/* Bouton de scroll  container*/
+.scroll-button-container_welcome {
+    position: absolute;
+    top: 880px; /* Positionne le bouton à 10px du bas */
+    left: 450px; /* Centre horizontalement */
+}
+
+/* Bouton de scroll */
+.btn-circle.page-scroll_welcome_welcome {
+    font-size: 60px;
+    color: #fff;
+    background-color: #333; /* Couleur de fond */
+    border-radius: 50px;
+    padding: 10px 15px;
+    text-align: center;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3); /* Ombre pour le bouton */
 }
 
 
@@ -346,7 +455,8 @@ a:focus {
     top: 7px; /* Position fixe depuis le haut */
     left: 800px; /* Position fixe depuis la gauche */
     width: 300px; /* Largeur fixe */
-    height: auto; /* Maintient les proportions */
+    min-width: 300px;
+    height: 600px; /* Maintient les proportions */
     z-index: 10;
 }
 
