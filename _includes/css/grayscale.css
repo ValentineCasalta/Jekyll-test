@@ -410,13 +410,93 @@ a:focus {
 .World-section {
     position: relative;
     width: 1440px; /* Largeur fixe pour éviter tout ajustement */
-    min-height: 1080px; /* Hauteur fixe */
+    min-height: 2980px; /* Hauteur fixe */
     margin: 0 auto; /* Centre horizontalement sur la page */
     padding: 50px 0;
     color: #fff;
-    background: url(/img/tapisserie_lights.png) repeat; /* Maintient la répétition */
+    background: url(/img/tap3lights.png) repeat; /* Maintient la répétition */
     background-color: {{ site.color.primary-dark }};
     background-size: cover; /* Garde la taille originale de l'image */
+}
+
+/* Contenu textuel */
+.text-content1 {
+    position: absolute;
+    width: 900px; /* Largeur fixe */
+    left: 50px; /* Position fixe depuis la gauche */
+    top: 90px; /* Position fixe depuis le haut */
+    text-align: left;
+    color: #ffffff;
+    font-family: 'Open Sans', sans-serif;
+    z-index: 15;
+}
+
+.hist {
+    position: absolute;
+    top: 150px; /* Position fixe depuis le haut */
+    left: -280px; /* Position fixe depuis la gauche */
+    width: 700px; /* Largeur fixe */
+    max-width: 1500px;
+    height: 380px; /* Hauteur fixe */
+    z-index: 5;
+}
+
+/* Image du cadre */
+.frame-image1 {
+    position: absolute;
+    top: 100px; /* Position fixe depuis le haut */
+    left: -610px; /* Position fixe depuis la gauche */
+    width: 850px; /* Largeur fixe */
+    max-width: 1500px;
+    height: 480px; /* Hauteur fixe */
+    z-index: 3;
+}
+
+/* Image du personnage */
+.perso-image1 {
+    position: absolute;
+    top: 100px; /* Position fixe depuis le haut */
+    left: -120px; /* Position fixe depuis la gauche */
+    width: 300px; /* Largeur fixe */
+    min-width: 300px;
+    height: 600px; /* Maintient les proportions */
+    z-index: 10;
+}
+
+/* Contenu textuel */
+.text-content2 {
+    position: absolute;
+    width: 450px; /* Largeur fixe */
+    left: 650px; /* Position fixe depuis la gauche */
+    top: 200px; /* Position fixe depuis le haut */
+    text-align: left;
+    color: #ffffff;
+    font-family: 'Open Sans', sans-serif;
+    z-index: 15;
+}
+
+/* Contenu textuel */
+.text-content3 {
+    position: absolute;
+    width: 850px; /* Largeur fixe */
+    left: -330px; /* Position fixe depuis la gauche */
+    top: 700px; /* Position fixe depuis le haut */
+    text-align: left;
+    color: #ffffff;
+    font-family: 'Open Sans', sans-serif;
+    z-index: 15;
+}
+
+/* Contenu textuel */
+.text-content33 {
+    position: absolute;
+    width: 1500px; /* Largeur fixe */
+    left: -330px; /* Position fixe depuis la gauche */
+    top: 800px; /* Position fixe depuis le haut */
+    text-align: left;
+    color: #ffffff;
+    font-family: 'Open Sans', sans-serif;
+    z-index: 15;
 }
 
 /* Conteneur parent */
@@ -432,7 +512,7 @@ a:focus {
     position: absolute;
     width: 700px; /* Largeur fixe */
     height: 300px; /* Hauteur fixe */
-    top: 100px; /* Position fixe depuis le haut */
+    top: 900px; /* Position fixe depuis le haut */
     left: -280px; /* Position fixe depuis la gauche */
     z-index: 7;
     background: rgba(0, 0, 0, 0.7); /* Fond translucide */
@@ -442,7 +522,7 @@ a:focus {
 /* Image du cadre */
 .frame-image {
     position: absolute;
-    top: 32px; /* Position fixe depuis le haut */
+    top: 800px; /* Position fixe depuis le haut */
     left: -610px; /* Position fixe depuis la gauche */
     width: 850px; /* Largeur fixe */
     max-width: 1500px;
@@ -451,11 +531,11 @@ a:focus {
 }
 
 /* Contenu textuel */
-.text-content {
+.text-content4 {
     position: absolute;
     width: 330px; /* Largeur fixe */
     left: 470px; /* Position fixe depuis la gauche */
-    top: 120px; /* Position fixe depuis le haut */
+    top: 1400px; /* Position fixe depuis le haut */
     text-align: left;
     color: #ffffff;
     font-family: 'Open Sans', sans-serif;
@@ -463,10 +543,10 @@ a:focus {
 }
 
 /* Image du personnage */
-.perso-image {
+.perso-image2 {
     position: absolute;
-    top: 7px; /* Position fixe depuis le haut */
-    left: 800px; /* Position fixe depuis la gauche */
+    top: 700px; /* Position fixe depuis le haut */
+    left: 400px; /* Position fixe depuis la gauche */
     width: 300px; /* Largeur fixe */
     min-width: 300px;
     height: 600px; /* Maintient les proportions */
@@ -476,8 +556,8 @@ a:focus {
 /* Bouton de scroll  container*/
 .scroll-button-container {
     position: absolute;
-    top: 900px; /* Positionne le bouton à 10px du bas */
-    left: 345px; /* Centre horizontalement */
+    top: 1200px; /* Positionne le bouton à 10px du bas */
+    left: 505px; /* Centre horizontalement */
 }
 
 /* Bouton de scroll */
