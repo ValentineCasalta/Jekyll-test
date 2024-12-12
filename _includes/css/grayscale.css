@@ -280,75 +280,72 @@ a:focus {
 }
 
 
+/* Section principale */
 .World-section {
     position: relative;
-    width: 100%;
-    min-height: 100vh;
+    width: 100%; /* Largeur fixe pour éviter tout ajustement */
+    min-height: 1080px; /* Hauteur fixe */
+    margin: 0 auto; /* Centre horizontalement sur la page */
     padding: 50px 0;
     color: #fff;
-    background: url(/img/tapisserie_lights.png) repeat center center scroll;
+    background: url(/img/tapisserie_lights.png) repeat; /* Maintient la répétition */
     background-color: {{ site.color.primary-dark }};
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
+    background-size: cover; /* Garde la taille originale de l'image */
 }
 
+/* Conteneur parent */
+.parent-container {
+    position: relative;
+    width: 1920px; /* Largeur fixe */
+    height: 1080px; /* Hauteur fixe */
+    margin: 0 auto; /* Centre horizontalement */
+}
 
-
-/* Graph container styling */
+/* Graphique */
 .graph-container {
-    position: relative; /* Allows absolute positioning of graph */
-    width: 150%; /* Adjust width of graph (e.g., 60% of the container) */
-    top: 0px;  /* Distance du haut */
-    left: -300px;  /* Centré horizontalement */
-    padding: 20px; /* Add space inside the container */
-    border-radius: 10px; /* Optional: rounded corners for the graph container */
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5); /* Optional: shadow for depth */
+    position: absolute;
+    width: 700px; /* Largeur fixe */
+    height: 300px; /* Hauteur fixe */
+    top: 100px; /* Position fixe depuis le haut */
+    left: -280px; /* Position fixe depuis la gauche */
     z-index: 7;
+    background: rgba(0, 0, 0, 0.7); /* Fond translucide */
+    border-radius: 10px; /* Coins arrondis */
 }
 
-/* Adjust Plotly Graph inside the container */
-.graph-container .plotly-graph-div {
-    width: 100%; /* Ensures graph fits within the container */
-    height: auto; /* Maintains proportional height */
-}
-
+/* Image du cadre */
 .frame-image {
-    position: absolute;  /* Positionnement absolu */
-    top: -57px;  /* Distance du haut */
-    left: -72%;  /* Centré horizontalement */
-    transform: translateX(-50%);  /* Décale l'image de 50% de sa largeur pour la centrer */
-    width: 1200%;  /* Ajuste la largeur */
-    max-width: 820px;
-    height: 600px;  /* Maintient la proportion */
-    z-index: 3;  /* Derrière l'image du personnage */
+    position: absolute;
+    top: 32px; /* Position fixe depuis le haut */
+    left: -610px; /* Position fixe depuis la gauche */
+    width: 850px; /* Largeur fixe */
+    max-width: 1500px;
+    height: 580px; /* Hauteur fixe */
+    z-index: 3;
 }
 
+/* Contenu textuel */
 .text-content {
-    position: absolute;  /* Positionnement absolu */
-    max-width: 45%; /* Adjust as necessary */
-    left: 60%;
-    top: 40px;
+    position: absolute;
+    width: 330px; /* Largeur fixe */
+    left: 470px; /* Position fixe depuis la gauche */
+    top: 120px; /* Position fixe depuis le haut */
     text-align: left;
-    color: #ffffff; /* Text color */
-    font-family: 'Open Sans', sans-serif; /* Font style */
+    color: #ffffff;
+    font-family: 'Open Sans', sans-serif;
     z-index: 15;
 }
 
+/* Image du personnage */
 .perso-image {
-    position: absolute;  /* Positionnement absolu */
-    top: -30px;  /* Ajuste la distance du haut */
-    left: 330%;  /* Ajuste la distance de la gauche */
-    width: 100%;  /* Ajuste la largeur */
-    max-width: 100%;  /* Limite la largeur maximale */
-    height: auto;  /* Maintient les proportions */
-    z-index: 10;  /* Place au-dessus des autres éléments */
+    position: absolute;
+    top: 7px; /* Position fixe depuis le haut */
+    left: 800px; /* Position fixe depuis la gauche */
+    width: 300px; /* Largeur fixe */
+    height: auto; /* Maintient les proportions */
+    z-index: 10;
 }
 
-
-
-####
 
 .Diversity-section {
     display: table;
