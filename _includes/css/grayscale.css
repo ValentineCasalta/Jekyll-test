@@ -327,18 +327,18 @@ a:focus {
 
 .text-content {
     position: absolute;  /* Positionnement absolu */
-    max-width: 100%; /* Adjust as necessary */
-    left: 100%;
-    top: 100px;
+    max-width: 45%; /* Adjust as necessary */
+    left: 60%;
+    top: 40px;
     text-align: left;
-    color: #370e0e; /* Text color */
+    color: #ffffff; /* Text color */
     font-family: 'Open Sans', sans-serif; /* Font style */
     z-index: 15;
 }
 
 .perso-image {
     position: absolute;  /* Positionnement absolu */
-    top: 0px;  /* Ajuste la distance du haut */
+    top: -30px;  /* Ajuste la distance du haut */
     left: 330%;  /* Ajuste la distance de la gauche */
     width: 100%;  /* Ajuste la largeur */
     max-width: 100%;  /* Limite la largeur maximale */
