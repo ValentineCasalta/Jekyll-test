@@ -178,6 +178,8 @@ a:focus {
     }
 }
 
+
+
 /* #################################################################################### */
 
 .btn-circle {
@@ -390,6 +392,14 @@ a:focus {
     text-align: center;
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3); /* Ombre pour le bouton */
 }
+
+.section-divider {
+    width: 100%; /* Cover the full width */
+    height: 20px; /* Adjust thickness of the divider */
+    background-color: #000; /* Black color */
+    margin: 0; /* No spacing around the divider */
+}
+
 
 
 /* Section principale */
