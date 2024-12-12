@@ -414,10 +414,13 @@ a:focus {
     margin: 0 auto; /* Centre horizontalement sur la page */
     padding: 50px 0;
     color: #fff;
-    background: url(/img/tap3lights.png) repeat; /* Maintient la répétition */
+    background: url(/img/long_paper.png) repeat; /* Maintient la répétition */
     background-color: {{ site.color.primary-dark }};
     background-size: cover; /* Garde la taille originale de l'image */
 }
+
+/* ################# */
+/* fig 1 */
 
 /* Contenu textuel */
 .text-content1 {
@@ -490,7 +493,7 @@ a:focus {
 /* Contenu textuel */
 .text-content33 {
     position: absolute;
-    width: 1500px; /* Largeur fixe */
+    width: 1400px; /* Largeur fixe */
     left: -330px; /* Position fixe depuis la gauche */
     top: 800px; /* Position fixe depuis le haut */
     text-align: left;
@@ -498,6 +501,81 @@ a:focus {
     font-family: 'Open Sans', sans-serif;
     z-index: 15;
 }
+
+/* ################# */
+/* fig 2 */
+
+
+/* Image du personnage */
+.perso-image2 {
+    position: absolute;
+    top: 940px; /* Position fixe depuis le haut */
+    left: 290px; /* Position fixe depuis la gauche */
+    width: 250px; /* Largeur fixe */
+    min-width: 250px;
+    height: 250px; /* Maintient les proportions */
+    z-index: 10;
+}
+
+/* Image du cadre */
+.frame-image2 {
+    position: absolute;
+    top: 1120px; /* Position fixe depuis le haut */
+    left: -300px; /* Position fixe depuis la gauche */
+    width: 890px; /* Largeur fixe */
+    max-width: 1500px;
+    height: 630px; /* Hauteur fixe */
+    z-index: 5;
+}
+
+.map {
+    position: absolute;
+    top: 1200px; /* Position fixe depuis le haut */
+    left: 280px; /* Position fixe depuis la gauche */
+    width: 750px; /* Largeur fixe */
+    max-width: 1500px;
+    height: 480px; /* Hauteur fixe */
+    z-index: 7;
+}
+
+/* Contenu textuel */
+.text-content5 {
+    position: absolute;
+    width: 550px; /* Largeur fixe */
+    left: -320px; /* Position fixe depuis la gauche */
+    top: 1200px; /* Position fixe depuis le haut */
+    text-align: left;
+    color: #ffffff;
+    font-family: 'Open Sans', sans-serif;
+    z-index: 15;
+}
+
+/* ################# */
+/* fig 3 */
+
+/* Contenu textuel */
+.text-content4 {
+    position: absolute;
+    width: 330px; /* Largeur fixe */
+    left: 820px; /* Position fixe depuis la gauche */
+    top: 2000px; /* Position fixe depuis le haut */
+    text-align: left;
+    color: #ffffff;
+    font-family: 'Open Sans', sans-serif;
+    z-index: 15;
+}
+
+/* Image du personnage */
+.perso3 {
+    position: absolute;
+    top: 1900px; /* Position fixe depuis le haut */
+    left: -500px; /* Position fixe depuis la gauche */
+    width: 250px; /* Largeur fixe */
+    min-width: 250px;
+    height: 550px; /* Maintient les proportions */
+    z-index: 10;
+}
+
 
 /* Conteneur parent */
 .parent-container {
@@ -512,52 +590,42 @@ a:focus {
     position: absolute;
     width: 700px; /* Largeur fixe */
     height: 300px; /* Hauteur fixe */
-    top: 900px; /* Position fixe depuis le haut */
-    left: -280px; /* Position fixe depuis la gauche */
+    top: 1900px; /* Position fixe depuis le haut */
+    left: 0px; /* Position fixe depuis la gauche */
     z-index: 7;
     background: rgba(0, 0, 0, 0.7); /* Fond translucide */
     border-radius: 10px; /* Coins arrondis */
 }
 
 /* Image du cadre */
-.frame-image {
+.frame-image3 {
     position: absolute;
-    top: 800px; /* Position fixe depuis le haut */
-    left: -610px; /* Position fixe depuis la gauche */
-    width: 850px; /* Largeur fixe */
+    top: 1840px; /* Position fixe depuis le haut */
+    left: -70px; /* Position fixe depuis la gauche */
+    width: 840px; /* Largeur fixe */
     max-width: 1500px;
     height: 580px; /* Hauteur fixe */
-    z-index: 3;
+    z-index: 5;
 }
 
+
 /* Contenu textuel */
-.text-content4 {
+.text-content6 {
     position: absolute;
     width: 330px; /* Largeur fixe */
-    left: 470px; /* Position fixe depuis la gauche */
-    top: 1400px; /* Position fixe depuis le haut */
+    left: 300px; /* Position fixe depuis la gauche */
+    top: 2700px; /* Position fixe depuis le haut */
     text-align: left;
     color: #ffffff;
     font-family: 'Open Sans', sans-serif;
     z-index: 15;
 }
 
-/* Image du personnage */
-.perso-image2 {
-    position: absolute;
-    top: 700px; /* Position fixe depuis le haut */
-    left: 400px; /* Position fixe depuis la gauche */
-    width: 300px; /* Largeur fixe */
-    min-width: 300px;
-    height: 600px; /* Maintient les proportions */
-    z-index: 10;
-}
-
 /* Bouton de scroll  container*/
 .scroll-button-container {
     position: absolute;
-    top: 1200px; /* Positionne le bouton à 10px du bas */
-    left: 505px; /* Centre horizontalement */
+    top: 2800px; /* Positionne le bouton à 10px du bas */
+    left: 360px; /* Centre horizontalement */
 }
 
 /* Bouton de scroll */
