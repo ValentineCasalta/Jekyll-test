@@ -175,13 +175,13 @@ a:focus {
 }
 
 .btn-circle {
-    width: 70px;
-    height: 70px;
-    margin-top: 15px;
-    padding: 7px 16px;
+    width: 50px;
+    height: 50px;
+    margin-top: -30px;
+    padding: 5px 5px;
     border: 2px solid #fff;
     border-radius: 35px;
-    font-size: 40px;
+    font-size: 30px;
     color: #fff;
     background: 0 0;
     -webkit-transition: background .3s ease-in-out;
@@ -263,6 +263,7 @@ a:focus {
     -o-background-size: cover;
 }
 
+<<<<<<< Updated upstream
 /* Graph container styling */
 .graph-container {
     position: relative; /* Allows absolute positioning of graph */
@@ -278,6 +279,22 @@ a:focus {
 .graph-container .plotly-graph-div {
     width: 100%; /* Ensures graph fits within the container */
     height: auto; /* Maintains proportional height */
+=======
+
+.Entry-section {
+    display: table;
+    width: 100%;
+    height: auto;
+    padding: 100px 0;
+    text-align: center;
+    color: #ffffff;
+    background: url(/img/Entrance.webp) no-repeat bottom center scroll;
+    background-color: {{ site.color.primary-dark }};
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+>>>>>>> Stashed changes
 }
 
 .World-section {
@@ -293,6 +310,58 @@ a:focus {
     -o-background-size: cover;
 }
 
+<<<<<<< Updated upstream
+=======
+/* Graph container styling */
+.graph-container {
+    position: relative; /* Allows absolute positioning of graph */
+    width: 350%; /* Adjust width of graph (e.g., 60% of the container) */
+    top: -200px;  /* Distance du haut */
+    left: -750px;  /* Centré horizontalement */
+    padding: 20px; /* Add space inside the container */
+    border-radius: 10px; /* Optional: rounded corners for the graph container */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5); /* Optional: shadow for depth */
+    z-index: 7;
+}
+
+/* Adjust Plotly Graph inside the container */
+.graph-container .plotly-graph-div {
+    width: 100%; /* Ensures graph fits within the container */
+    height: auto; /* Maintains proportional height */
+}
+
+.frame-image {
+    position: absolute;  /* Positionnement absolu */
+    top: -600px;  /* Distance du haut */
+    left: -40%;  /* Centré horizontalement */
+    transform: translateX(-50%);  /* Décale l'image de 50% de sa largeur pour la centrer */
+    width: 1800%;  /* Ajuste la largeur */
+    max-width: 1750px;
+    height: 1300px;  /* Maintient la proportion */
+    z-index: 3;  /* Derrière l'image du personnage */
+}
+
+.text-content {
+    max-width: 80%; /* Adjust as necessary */
+    left: 50%;
+    top: 400px;
+    text-align: left;
+    color: #fff; /* Text color */
+    font-family: 'Open Sans', sans-serif; /* Font style */
+    z-index: 1;
+}
+
+.perso-image {
+    position: absolute;  /* Positionnement absolu */
+    top: -50px;  /* Ajuste la distance du haut */
+    left: 25%;  /* Ajuste la distance de la gauche */
+    width: 500%;  /* Ajuste la largeur */
+    max-width: 400%;  /* Limite la largeur maximale */
+    height: auto;  /* Maintient les proportions */
+    z-index: 10;  /* Place au-dessus des autres éléments */
+}
+
+>>>>>>> Stashed changes
 .Diversity-section {
     display: table;
     width: 100%;

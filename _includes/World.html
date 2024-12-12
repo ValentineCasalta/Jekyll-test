@@ -5,6 +5,7 @@
                 <div class="col-lg-8 col-lg-offset-2">
                     <p>An overview of horror movies around the world </p>
 
+<<<<<<< Updated upstream
                     <div class="graph-container">
                         {% include Themes_Across_Regions.html %}
                     </div>                    
@@ -12,7 +13,43 @@
                     <a href="#Diversity" class="btn btn-circle page-scroll">
                         <i class="fa fa-angle-double-down animated"></i>
                     </a>
+=======
+                <div class="row align-items-center">
+                    <!-- Text Container - Place this first so it appears above the rest -->
+                    <div id="text-div" class="col-md-12 text-content">
+                        <p> In this world map, we can observe the locations where horror films are produced. 
+                            The robust Mann-Whitney test reveals a significant difference in rankings between 
+                            Occidental and non-Occidental countries. Clearly, the USA and Europe are major 
+                            production hubs in Occidental countries. In contrast, highly populated non-Occidental 
+                            countries such as India and China are among the largest producers, as expected. 
+                            Japan and Korea, however, stand out as outliers due to their highly developed and 
+                            influential cinematic industries.</p>
+                    </div>
+
+                    <!-- Image du cadre -->
+                    <div class="col-md-4">
+                        <img src="/img/frame.png" alt="Horror Frame" class="img-responsive frame-image">
+                    </div>
+
+                    <!-- Conteneur du graphe -->
+                    <div class="col-md-4">
+                        <div class="graph-container">
+                            {% include /Plots/plotly_world_map.html %}
+                        </div>
+                    </div>
+
+                    <!-- Image du personnage -->
+                    <div class="col-md-4">
+                        <img src="/img/perso.png" alt="Horror World" class="img-responsive perso-image">
+                    </div>
+
+>>>>>>> Stashed changes
                 </div>
             </div>
         </div>
+<<<<<<< Updated upstream
     </section>
+=======
+    </div>
+</section>
+>>>>>>> Stashed changes
