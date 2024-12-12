@@ -279,25 +279,6 @@ a:focus {
     -o-background-size: cover;
 }
 
-/* Graph container styling */
-.graph-container {
-    position: relative; /* Allows absolute positioning of graph */
-    width: 100%; /* Adjust width of graph (e.g., 60% of the container) */
-    margin: 0 auto; /* Center the graph horizontally */
-    background: rgba(0, 0, 0, 0.6); /* Add a translucent background behind the graph */
-    padding: 20px; /* Add space inside the container */
-    border-radius: 10px; /* Optional: rounded corners for the graph container */
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5); /* Optional: shadow for depth */
-    top: 10px;  /* Distance du haut */
-    left: 130px;  /* Distance de la gauche */
-    z-index: 7;
-}
-
-/* Adjust Plotly Graph inside the container */
-.graph-container .plotly-graph-div {
-    width: 100%; /* Ensures graph fits within the container */
-    height: auto; /* Maintains proportional height */
-}
 
 .World-section {
     position: relative;
@@ -313,27 +294,61 @@ a:focus {
     -o-background-size: cover;
 }
 
-.perso-image {
-    position: absolute;  /* Positionnement absolu */
-    top: 70px;  /* Ajuste la distance du haut */
-    left: -400px;  /* Ajuste la distance de la gauche */
-    width: 500%;  /* Ajuste la largeur */
-    max-width: 400%;  /* Limite la largeur maximale */
-    height: auto;  /* Maintient les proportions */
-    z-index: 10;  /* Place au-dessus des autres éléments */
+
+
+/* Graph container styling */
+.graph-container {
+    position: relative; /* Allows absolute positioning of graph */
+    width: 150%; /* Adjust width of graph (e.g., 60% of the container) */
+    top: 0px;  /* Distance du haut */
+    left: -300px;  /* Centré horizontalement */
+    padding: 20px; /* Add space inside the container */
+    border-radius: 10px; /* Optional: rounded corners for the graph container */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5); /* Optional: shadow for depth */
+    z-index: 7;
+}
+
+/* Adjust Plotly Graph inside the container */
+.graph-container .plotly-graph-div {
+    width: 100%; /* Ensures graph fits within the container */
+    height: auto; /* Maintains proportional height */
 }
 
 .frame-image {
     position: absolute;  /* Positionnement absolu */
-    top: -470px;  /* Distance du haut */
-    left: 50%;  /* Centré horizontalement */
+    top: -57px;  /* Distance du haut */
+    left: -72%;  /* Centré horizontalement */
     transform: translateX(-50%);  /* Décale l'image de 50% de sa largeur pour la centrer */
-    width: 600%;  /* Ajuste la largeur */
-    max-width: 1200px;  /* Limite la largeur maximale */
-    height: 1500px;  /* Maintient la proportion */
+    width: 1200%;  /* Ajuste la largeur */
+    max-width: 820px;
+    height: 600px;  /* Maintient la proportion */
     z-index: 3;  /* Derrière l'image du personnage */
 }
 
+.text-content {
+    position: absolute;  /* Positionnement absolu */
+    max-width: 100%; /* Adjust as necessary */
+    left: 100%;
+    top: 100px;
+    text-align: left;
+    color: #370e0e; /* Text color */
+    font-family: 'Open Sans', sans-serif; /* Font style */
+    z-index: 15;
+}
+
+.perso-image {
+    position: absolute;  /* Positionnement absolu */
+    top: 0px;  /* Ajuste la distance du haut */
+    left: 330%;  /* Ajuste la distance de la gauche */
+    width: 100%;  /* Ajuste la largeur */
+    max-width: 100%;  /* Limite la largeur maximale */
+    height: auto;  /* Maintient les proportions */
+    z-index: 10;  /* Place au-dessus des autres éléments */
+}
+
+
+
+####
 
 .Diversity-section {
     display: table;
