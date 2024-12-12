@@ -409,7 +409,7 @@ a:focus {
 
 .World-section {
     position: relative;
-    width: 1440px; /* Largeur fixe pour éviter tout ajustement */
+    width: 100%; /* Largeur fixe pour éviter tout ajustement */
     min-height: 2980px; /* Hauteur fixe */
     margin: 0 auto; /* Centre horizontalement sur la page */
     padding: 50px 0;
@@ -434,24 +434,26 @@ a:focus {
     z-index: 15;
 }
 
-.hist {
+#release_year_graph {
     position: absolute;
-    top: 150px; /* Position fixe depuis le haut */
-    left: -280px; /* Position fixe depuis la gauche */
-    width: 700px; /* Largeur fixe */
-    max-width: 1500px;
-    height: 380px; /* Hauteur fixe */
-    z-index: 5;
+    height: 100px;
+    left: -280px;
+    top: 130px;
+}
+#release_year_graph .graph-container {
+    /* Optionally, adjust the size of the graph inside the container */
+    width: 80%;  /* Ensures the graph fills the width of the container */
+    height: 100%;  /* Adjust based on the content inside the graph */
 }
 
 /* Image du cadre */
 .frame-image1 {
     position: absolute;
-    top: 100px; /* Position fixe depuis le haut */
+    top: 75px; /* Position fixe depuis le haut */
     left: -610px; /* Position fixe depuis la gauche */
     width: 850px; /* Largeur fixe */
     max-width: 1500px;
-    height: 480px; /* Hauteur fixe */
+    height: 510px; /* Hauteur fixe */
     z-index: 3;
 }
 
@@ -528,15 +530,13 @@ a:focus {
     z-index: 5;
 }
 
-.map {
+#map_graph {
     position: absolute;
-    top: 1200px; /* Position fixe depuis le haut */
-    left: 280px; /* Position fixe depuis la gauche */
-    width: 750px; /* Largeur fixe */
-    max-width: 1500px;
-    height: 480px; /* Hauteur fixe */
-    z-index: 7;
+    height: 100px;
+    left: 280px;
+    top: 1195px;
 }
+
 
 /* Contenu textuel */
 .text-content5 {
@@ -667,7 +667,7 @@ a:focus {
     padding: 100px 0;
     text-align: center;
     color: #ffffff;
-    background: url(/img/Entrance.webp) no-repeat bottom center scroll;
+    background: url(/img/tapisserie.png) no-repeat bottom center scroll;
     background-color: {{ site.color.primary-dark }};
     -webkit-background-size: cover;
     -moz-background-size: cover;
