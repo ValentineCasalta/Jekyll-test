@@ -808,7 +808,7 @@ a:focus {
 .Diversity-section {
     display: table;
     width: 100%;
-    min-height: 3000px;
+    min-height: 4000px;
     padding: 100px 0;
     text-align: center;
     color: #ffffff;
@@ -840,7 +840,7 @@ a:focus {
 }
 
 #gender_graph {
-    top: 170px;
+    top: 160px;
     left: -280px;
     width: 100%;
     height:100%;
@@ -867,10 +867,280 @@ a:focus {
     position: absolute;
     width: 550px;
     left: 550px;
-    top: 210px;
+    top: 150px;
     text-align: left;
 }
 
+/* Witches */ 
+
+.text-content-Diversity-3 {
+    position: absolute;
+    width: 550px;
+    text-align: left;
+    left: -320px;
+    top: 920px;
+}
+
+#witch_gender_graph {
+    width: 100%;
+    height: 100%;
+    top: 980px;
+    left: 280px;
+}
+
+.frame-image-Diversity-2 {
+    position: absolute;
+    left: 0px;
+    top: 945px;
+    width: 278;
+    max-width: 280px;
+    height: 292px;
+}
+
+#witch_ethnicity_gender_graph {
+    width: 100%;
+    height: 100%;
+    top: 870px;
+    left: 70px;
+}
+
+.frame-image-Diversity-3{
+    position: absolute;
+    top: 835px;
+    left: 530px;
+    width: 490px;
+    max-width: 1000px;
+    height: 290px;
+}
+
+#witch_ethnicity_graph {
+    width: 100%;
+    height: 100%;
+    top: 1140px;
+    left: 350px;
+}
+
+.frame-image-Diversity-4 {
+    position: absolute;
+    top: 1105px;
+    left: 55px;
+    width: 480px;
+    max-width: 1000px;
+    height: 280px;
+}
+
+.perso-image-Diversity-2 {
+    position: absolute;
+    top: 778px;
+    left: 260px;
+    height: 200px;
+}
+
+/* Vampires */
+.text-content-Diversity-4 {
+    position: absolute;
+    width: 1300px;
+    top: 1580px;
+    left: -300px;
+    text-align: left;
+}
+
+#vampire_gender_graph {
+    width: 100%;
+    height: 100%;
+    top: 1850px;
+    left: -380px;
+}
+
+.frame-image-Diversity-5 {
+    position: absolute;
+    top: 1820px;
+    left: -662px;
+    width: 275;
+    max-width: 280px;
+    height: 292px;
+}
+
+#vampire_ethnicity_gender_graph {
+    width: 100%;
+    height: 100%;
+    top: 1800px;
+    left: 180px;
+}
+
+.frame-image-Diversity-6{
+    position: absolute;
+    top: 1765px;
+    left: -118px;
+    width: 490px;
+    max-width: 1000px;
+    height: 290px;
+}
+
+#vampire_ethnicity_graph {
+    width: 100%;
+    height: 100%;
+    top: 1860px;
+    left: 160px;
+}
+
+.frame-image-Diversity-7 {
+    position: absolute;
+    top: 1825px;
+    left: 625px;
+    width: 480px;
+    max-width: 1000px;
+    height: 275px;
+}
+
+.perso-image-Diversity-3 {
+    position: absolute;
+    top: 1800px;
+    left: -550px;
+    height: 450px;
+    z-index: 10;
+}
+
+.text-content-Diversity-5 {
+    position: absolute;
+    top: 2200px;
+    left: -130px;
+    width: 1200px;
+}
+
+/* Preys and predators */
+
+.text-content-Diversity-6 {
+    position: absolute;
+    top: 2550px;
+    left: 560px;
+    width: 540px;
+    text-align:left;
+}
+
+#predator_gender_graph {
+    position: absolute;
+    top: 2560px;
+    left: -320px;
+    width: 100%;
+    height: 100%;
+}
+
+.frame-image-Diversity-8 {
+    position: absolute;
+    top: 2527px;
+    left: 162px;
+    width: 275px;
+    max-width: 300px;
+    height: 285px;
+}
+
+#predator_ethnicity_gender_graph {
+    position: absolute;
+    top: 2750px;
+    left: -550px;
+    width: 100%;
+    height: 100%;
+}
+
+.frame-image-Diversity-9 {
+    position: absolute;
+    top: 2420px;
+    left: -815px;
+    height: 270px;
+    width: 480px;
+    max-width: 600px;
+}
+
+#predator_ethnicity_graph {
+    position: absolute;
+    top: 2450px;
+    left: -270px;
+    width: 100%;
+    height: 100%;
+}
+
+.frame-image-Diversity-10 {
+    position: absolute;
+    top: 2715px;
+    left: -590px;
+    height: 285px;
+    max-width: 600px;
+    width: 480px;
+}
+
+.perso-image-Diversity-4{
+    position: absolute;
+    top: 2590px;
+    left: -150px;
+    z-index: 10;
+}
+
+.text-content-Diversity-7 {
+    position: absolute;
+    top: 3200px;
+    left: -300px;
+    width: 540px;
+    text-align:left;
+}
+
+#prey_gender_graph {
+    position: absolute;
+    top: 3040px;
+    left: 760px;
+    width: 100%;
+    height: 100%;
+}
+
+.frame-image-Diversity-11 {
+    position: absolute;
+    top: 3010px;
+    left: 480px;
+    width: 275px;
+    max-width: 300px;
+    height: 285px;
+}
+
+#prey_ethnicity_gender_graph {
+    position: absolute;
+    top: 3370px;
+    left: 40px;
+    width: 100%;
+    height: 100%;
+}
+
+.frame-image-Diversity-12 {
+    position: absolute;
+    top: 3336px;
+    left: 505px;
+    height: 290px;
+    width: 480px;
+    max-width: 600px;
+}
+
+#prey_ethnicity_graph {
+    position: absolute;
+    top: 3090px;
+    left: 20px;
+    width: 100%;
+    height: 100%;
+}
+
+.frame-image-Diversity-13 {
+    position: absolute;
+    top: 3055px;
+    left: -275px;
+    height: 280px;
+    max-width: 600px;
+    width: 480px;
+}
+
+.perso-image-Diversity-5{
+    position: absolute;
+    top: 3590px;
+    left: -450px;
+    z-index: 10;
+}
 
 /* #################################################################################### */
 /* Tropes */
