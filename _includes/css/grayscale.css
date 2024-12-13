@@ -656,7 +656,7 @@ a:focus {
 }
 
 /* Intro */
-.text0 {
+.text_0 {
     position: absolute;
     width: 1130px; /* Largeur fixe */
     left: -70px; /* Position fixe depuis la gauche */
@@ -825,18 +825,15 @@ a:focus {
 /* Tropes */
 
 .Tropes-section {
-    display: table;
-    width: 100%;
-    height: auto;
-    padding: 100px 0;
-    text-align: center;
-    color: #ffffff;
-    background: url(/img/Manoir.jpg) no-repeat bottom center scroll;
+    position: relative;
+    width: 1440px; /* Largeur fixe pour éviter tout ajustement */
+    min-height: 3080px; /* Hauteur fixe */
+    margin: 0 auto; /* Centre horizontalement sur la page */
+    padding: 50px 0;
+    color: #fff;
+    background: url(/img/long_paper5.png) repeat; /* Maintient la répétition */
     background-color: {{ site.color.primary-dark }};
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
+    background-size: cover; /* Garde la taille originale de l'image */
 }
 
 /* #################################################################################### */
