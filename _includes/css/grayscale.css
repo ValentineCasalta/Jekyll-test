@@ -899,7 +899,7 @@ a:focus {
 
 .porte {
     position: absolute;
-    top: 50px; /* Position fixe depuis le haut */
+    top: -50px; /* Position fixe depuis le haut */
     left: 470px; /* Position fixe depuis la gauche */
     width: 570px; /* Largeur fixe */
     max-width: 1500px;
@@ -909,7 +909,7 @@ a:focus {
 
 .persotriggers0 {
     position: absolute;
-    top: 130px; /* Position fixe depuis le haut */
+    top: 100px; /* Position fixe depuis le haut */
     left: 170px; /* Position fixe depuis la gauche */
     width: 270px; /* Largeur fixe */
     max-width: 1500px;
