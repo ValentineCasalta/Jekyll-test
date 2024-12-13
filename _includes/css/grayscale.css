@@ -625,11 +625,12 @@ a:focus {
 .scroll-button-container {
     position: absolute;
     top: 2800px; /* Positionne le bouton à 10px du bas */
-    left: 360px; /* Centre horizontalement */
+    left: 350px; /* Centre horizontalement */
 }
 
 /* Bouton de scroll */
 .btn-circle.page-scroll {
+
     font-size: 24px;
     color: #fff;
     background-color: #333; /* Couleur de fond */
@@ -638,6 +639,111 @@ a:focus {
     text-align: center;
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3); /* Ombre pour le bouton */
 }
+
+/* #################################################################################### */
+/* Titles */
+
+.Titles-section {
+    position: relative;
+    width: 1440px; /* Largeur fixe pour éviter tout ajustement */
+    min-height: 2980px; /* Hauteur fixe */
+    margin: 0 auto; /* Centre horizontalement sur la page */
+    padding: 50px 0;
+    color: #fff;
+    background: url(/img/long_paper2.png) repeat; /* Maintient la répétition */
+    background-color: {{ site.color.primary-dark }};
+    background-size: cover; /* Garde la taille originale de l'image */
+}
+
+/* Intro */
+.text0 {
+    position: absolute;
+    width: 1130px; /* Largeur fixe */
+    left: -70px; /* Position fixe depuis la gauche */
+    top: 100px; /* Position fixe depuis le haut */
+    text-align: center;
+    color: #ffffff;
+    font-family: 'Open Sans', sans-serif;
+    z-index: 15;
+}
+
+
+/* PLOT 1 */
+
+.plot1 {
+    position: absolute;
+    top: 300px; /* Position fixe depuis le haut */
+    left: 450px; /* Position fixe depuis la gauche */
+    width: 640px; /* Largeur fixe */
+    max-width: 1500px;
+    height: 380px; /* Hauteur fixe */
+    z-index: 5;
+}
+
+.frame1 {
+    position: absolute;
+    top: 240px; /* Position fixe depuis le haut */
+    left: 75px; /* Position fixe depuis la gauche */
+    width: 770px; /* Largeur fixe */
+    max-width: 1500px;
+    height: 500px; /* Hauteur fixe */
+    z-index: 3;
+}
+
+.perso1 {
+    position: absolute;
+    top: 240px; /* Position fixe depuis le haut */
+    left: -430px; /* Position fixe depuis la gauche */
+    width: 260px; /* Largeur fixe */
+    max-width: 1500px;
+    height: 600px; /* Hauteur fixe */
+    z-index: 7;
+}
+
+.text1 {
+    position: absolute;
+    top: 270px; /* Position fixe depuis le haut */
+    left: -220px; /* Position fixe depuis la gauche */
+    width: 460px; /* Largeur fixe */
+    max-width: 1500px;
+    height: 600px; /* Hauteur fixe */
+    text-align: left;
+    z-index: 7;
+}
+
+.text11 {
+    position: absolute;
+    top: 940px; /* Position fixe depuis le haut */
+    left: -220px; /* Position fixe depuis la gauche */
+    width: 1400px; /* Largeur fixe */
+    max-width: 1500px;
+    height: 600px; /* Hauteur fixe */
+    text-align: left;
+    z-index: 7;
+}
+
+
+/* END */
+/* Conteneur du bouton de scroll pour _titles */
+.scroll-button-container_titles {
+    position: absolute; /* Positionnement absolu */
+    top: 2800px; /* Position verticale */
+    left: 50%; /* Centre horizontalement */
+    transform: translateX(-50%); /* Corrige le centrage exact */
+}
+
+/* Style spécifique pour le bouton avec _titles */
+.btn-circle.page-scroll_titles {
+    font-size: 24px;
+    color: #fff; /* Couleur du texte */
+    background-color: #333; /* Couleur de fond */
+    border-radius: 50%; /* Forme circulaire */
+    padding: 10px 15px; /* Espacement interne */
+    text-align: center; /* Centrage du contenu */
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3); /* Ombre */
+    border: none; /* Enlève toute bordure par défaut */
+}
+
 
 /* ################################################################################## */
 /* DIVERSITY SECTION */
@@ -657,23 +763,6 @@ a:focus {
     -o-background-size: cover;
 }
 
-/* #################################################################################### */
-/* Titles */
-
-.Titles-section {
-    display: table;
-    width: 100%;
-    height: auto;
-    padding: 100px 0;
-    text-align: center;
-    color: #ffffff;
-    background: url(/img/Entrance.webp) no-repeat bottom center scroll;
-    background-color: {{ site.color.primary-dark }};
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
-}
 
 /* #################################################################################### */
 /* Tropes */
