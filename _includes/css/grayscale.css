@@ -842,7 +842,7 @@ a:focus {
 .Triggers-section {
     position: relative;
     width: 1440px; /* Largeur fixe pour éviter tout ajustement */
-    min-height: 3080px; /* Hauteur fixe */
+    min-height: 4080px; /* Hauteur fixe */
     margin: 0 auto; /* Centre horizontalement sur la page */
     padding: 50px 0;
     color: #fff;
@@ -974,8 +974,8 @@ a:focus {
 
 .texttriggers1 {
     position: absolute;
-    top: 1100px; /* Position fixe depuis le haut */
-    left: 270px; /* Position fixe depuis la gauche */
+    top: 1000px; /* Position fixe depuis le haut */
+    left: 250px; /* Position fixe depuis la gauche */
     width: 400px; /* Largeur fixe */
     max-width: 450px;
     height: 600px; /* Hauteur fixe */
@@ -983,6 +983,60 @@ a:focus {
     z-index: 7;
 }
 
+.texttriggers2 {
+    position: absolute;
+    top: 1300px; /* Position fixe depuis le haut */
+    left: 290px; /* Position fixe depuis la gauche */
+    width: 400px; /* Largeur fixe */
+    max-width: 450px;
+    height: 600px; /* Hauteur fixe */
+    text-align: right;
+    z-index: 7;
+}
+
+.texttriggers3 {
+    position: absolute;
+    top: 1450px; /* Position fixe depuis le haut */
+    left: 250px; /* Position fixe depuis la gauche */
+    width: 400px; /* Largeur fixe */
+    max-width: 450px;
+    height: 600px; /* Hauteur fixe */
+    text-align: left;
+    z-index: 7;
+}
+
+.texttriggers4 {
+    position: absolute;
+    top: 1700px; /* Position fixe depuis le haut */
+    left: 300px; /* Position fixe depuis la gauche */
+    width: 400px; /* Largeur fixe */
+    max-width: 450px;
+    height: 600px; /* Hauteur fixe */
+    text-align: right;
+    z-index: 7;
+}
+
+.texttriggers5 {
+    position: absolute;
+    top: 1950px; /* Position fixe depuis le haut */
+    left: 250px; /* Position fixe depuis la gauche */
+    width: 400px; /* Largeur fixe */
+    max-width: 450px;
+    height: 600px; /* Hauteur fixe */
+    text-align: left;
+    z-index: 7;
+}
+
+.texttriggers6 {
+    position: absolute;
+    top: 2150px; /* Position fixe depuis le haut */
+    left: 300px; /* Position fixe depuis la gauche */
+    width: 400px; /* Largeur fixe */
+    max-width: 450px;
+    height: 600px; /* Hauteur fixe */
+    text-align: right;
+    z-index: 7;
+}
 
 /* END */
 /* Conteneur du bouton de scroll pour _titles */
