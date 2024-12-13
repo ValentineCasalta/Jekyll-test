@@ -886,12 +886,12 @@ a:focus {
 
 .texttriggers00 {
     position: absolute;
-    top: 800px; /* Position fixe depuis le haut */
-    left: -170px; /* Position fixe depuis la gauche */
-    width: 700px; /* Largeur fixe */
+    top: 860px; /* Position fixe depuis le haut */
+    left: -70px; /* Position fixe depuis la gauche */
+    width: 1100px; /* Largeur fixe */
     max-width: 1500px;
     height: 600px; /* Hauteur fixe */
-    text-align: left;
+    text-align: center;
     z-index: 7;
 }
 
@@ -1038,11 +1038,24 @@ a:focus {
     z-index: 7;
 }
 
+/* Content entre genres */ 
+
+.texttriggers7 {
+    position: absolute;
+    top: 2500px; /* Position fixe depuis le haut */
+    left: -140px; /* Position fixe depuis la gauche */
+    width: 1200px; /* Largeur fixe */
+    max-width: 1200px;
+    height: 600px; /* Hauteur fixe */
+    text-align: center;
+    z-index: 7;
+}
+
 /* END */
 /* Conteneur du bouton de scroll pour _titles */
 .scroll-button-container_triggers {
     position: absolute; /* Positionnement absolu */
-    top: 2800px; /* Position verticale */
+    top: 3800px; /* Position verticale */
     left: 50%; /* Centre horizontalement */
     transform: translateX(-50%); /* Corrige le centrage exact */
 }
