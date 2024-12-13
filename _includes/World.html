@@ -13,9 +13,12 @@
                         <p> Let's start with an overview of horror movies around the world, shall we?</p>
                     </div>
 
+                    <!-- Conteneur du graphe -->
                     <div class="col-md-4">
-                        <img src="/img/hist_release.png" alt="Horror Frame" class="img-responsive hist">
-                    </div>
+                        <div id='release_year_graph' class="graph-container">
+                            {% include /Plots/Release_year_horror_vs_all.html %}
+                        </div>
+                    </div>                    
 
                     <!-- Image du cadre -->
                     <div class="col-md-4">
@@ -64,9 +67,12 @@ Horror is certainly a global phenomenon, but as you can see, some areas are just
                         </p>
                     </div>
 
+                    <!-- Conteneur du graphe -->
                     <div class="col-md-4">
-                        <img src="/img/map_world.png" alt="Horror Frame" class="img-responsive map">
-                    </div>
+                        <div id='map_graph' class="graph-container">
+                            {% include /Plots/plotly_world_map.html %}
+                        </div>
+                    </div>    
 
                     <!-- Image du personnage -->
                     <div class="col-md-4">
@@ -103,7 +109,7 @@ Horror is certainly a global phenomenon, but as you can see, some areas are just
                     <!-- Conteneur du graphe -->
                     <div class="col-md-8">
                         <div class="graph-container">
-                            {% include Themes_Across_Regions.html %}
+                            {% include /Plots/Themes_Across_Regions.html %}
                         </div>
                     </div>
                 </div>
