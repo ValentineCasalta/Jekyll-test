@@ -920,11 +920,65 @@ a:focus {
 
 .graphtrigger3 {
     position: absolute;
-    top: 1500px; /* Position fixe depuis le haut */
-    left: -500px; /* Position fixe depuis la gauche */
+    top: 1390px; /* Position fixe depuis le haut */
+    left: -440px; /* Position fixe depuis la gauche */
     width: 300px; /* Largeur fixe */
     max-width: 500px;
     height: 300px; /* Hauteur fixe */
+    text-align: left;
+    z-index: 7;
+}
+
+.graphtrigger4 {
+    position: absolute;
+    top: 1550px; /* Position fixe depuis le haut */
+    left: 100px; /* Position fixe depuis la gauche */
+    width: 300px; /* Largeur fixe */
+    max-width: 500px;
+    height: 300px; /* Hauteur fixe */
+    text-align: left;
+    z-index: 7;
+}
+
+.graphtrigger5 {
+    position: absolute;
+    top: 1860px; /* Position fixe depuis le haut */
+    left: -130px; /* Position fixe depuis la gauche */
+    width: 300px; /* Largeur fixe */
+    max-width: 500px;
+    height: 300px; /* Hauteur fixe */
+    text-align: left;
+    z-index: 7;
+}
+
+.graphtrigger6 {
+    position: absolute;
+    top: 2030px; /* Position fixe depuis le haut */
+    left: 400px; /* Position fixe depuis la gauche */
+    width: 300px; /* Largeur fixe */
+    max-width: 500px;
+    height: 300px; /* Hauteur fixe */
+    text-align: left;
+    z-index: 7;
+}
+
+.persotriggers1 {
+    position: absolute;
+    top: 1150px; /* Position fixe depuis le haut */
+    left: -680px; /* Position fixe depuis la gauche */
+    width: 270px; /* Largeur fixe */
+    max-width: 1500px;
+    height: 260px; /* Hauteur fixe */
+    z-index: 7;
+}
+
+.texttriggers1 {
+    position: absolute;
+    top: 1100px; /* Position fixe depuis le haut */
+    left: 270px; /* Position fixe depuis la gauche */
+    width: 400px; /* Largeur fixe */
+    max-width: 450px;
+    height: 600px; /* Hauteur fixe */
     text-align: left;
     z-index: 7;
 }
