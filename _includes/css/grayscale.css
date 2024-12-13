@@ -1015,7 +1015,7 @@ a:focus {
 
 .persotriggers1 {
     position: absolute;
-    top: 1150px; /* Position fixe depuis le haut */
+    top: 1128px; /* Position fixe depuis le haut */
     left: -680px; /* Position fixe depuis la gauche */
     width: 270px; /* Largeur fixe */
     max-width: 1500px;
@@ -1153,8 +1153,8 @@ a:focus {
 
 .texttriggers7 {
     position: absolute;
-    top: 2500px; /* Position fixe depuis le haut */
-    left: -140px; /* Position fixe depuis la gauche */
+    top: 2600px; /* Position fixe depuis le haut */
+    left: -150px; /* Position fixe depuis la gauche */
     width: 1200px; /* Largeur fixe */
     max-width: 1200px;
     height: 600px; /* Hauteur fixe */
@@ -1162,11 +1162,169 @@ a:focus {
     z-index: 7;
 }
 
+.graphtrigger7 {
+    position: absolute;
+    top: 2750px; /* Position fixe depuis le haut */
+    left: -150px; /* Position fixe depuis la gauche */
+    width: 300px; /* Largeur fixe */
+    max-width: 500px;
+    height: 300px; /* Hauteur fixe */
+    text-align: left;
+    z-index: 7;
+}
+
+.graphtrigger8 {
+    position: absolute;
+    top: 2750px; /* Position fixe depuis le haut */
+    left: -10px; /* Position fixe depuis la gauche */
+    width: 300px; /* Largeur fixe */
+    max-width: 500px;
+    height: 300px; /* Hauteur fixe */
+    text-align: left;
+    z-index: 7;
+}
+
+.graphtrigger9 {
+    position: absolute;
+    top: 2750px; /* Position fixe depuis le haut */
+    left: 120px; /* Position fixe depuis la gauche */
+    width: 300px; /* Largeur fixe */
+    max-width: 500px;
+    height: 300px; /* Hauteur fixe */
+    text-align: left;
+    z-index: 7;
+}
+
+.graphtrigger10 {
+    position: absolute;
+    top: 3300px; /* Position fixe depuis le haut */
+    left: -150px; /* Position fixe depuis la gauche */
+    width: 300px; /* Largeur fixe */
+    max-width: 500px;
+    height: 300px; /* Hauteur fixe */
+    text-align: left;
+    z-index: 7;
+}
+
+.graphtrigger11 {
+    position: absolute;
+    top: 3300px; /* Position fixe depuis le haut */
+    left: -10px; /* Position fixe depuis la gauche */
+    width: 300px; /* Largeur fixe */
+    max-width: 500px;
+    height: 300px; /* Hauteur fixe */
+    text-align: left;
+    z-index: 7;
+}
+
+.graphtrigger12 {
+    position: absolute;
+    top: 3300px; /* Position fixe depuis le haut */
+    left: 120px; /* Position fixe depuis la gauche */
+    width: 300px; /* Largeur fixe */
+    max-width: 500px;
+    height: 300px; /* Hauteur fixe */
+    text-align: left;
+    z-index: 7;
+}
+
+.persotriggers2 {
+    position: absolute;
+    top: 3060px; /* Position fixe depuis le haut */
+    left: 760px; /* Position fixe depuis la gauche */
+    width: 270px; /* Largeur fixe */
+    max-width: 1500px;
+    height: 260px; /* Hauteur fixe */
+    z-index: 7;
+}
+
+.frametriggers7 {
+    position: absolute;
+    top: 2710px; /* Position fixe depuis le haut */
+    left: -490px; /* Position fixe depuis la gauche */
+    width: 410px; /* Largeur fixe */
+    max-width: 1500px;
+    height: 360px; /* Hauteur fixe */
+    z-index: 3;
+}
+
+.frametriggers8 {
+    position: absolute;
+    top: 2710px; /* Position fixe depuis le haut */
+    left: -355px; /* Position fixe depuis la gauche */
+    width: 410px; /* Largeur fixe */
+    max-width: 1500px;
+    height: 360px; /* Hauteur fixe */
+    z-index: 3;
+}
+
+.frametriggers9 {
+    position: absolute;
+    top: 2710px; /* Position fixe depuis le haut */
+    left: 710px; /* Position fixe depuis la gauche */
+    width: 410px; /* Largeur fixe */
+    max-width: 1500px;
+    height: 360px; /* Hauteur fixe */
+    z-index: 3;
+}
+
+.frametriggers10 {
+    position: absolute;
+    top: 3257px; /* Position fixe depuis le haut */
+    left: -490px; /* Position fixe depuis la gauche */
+    width: 410px; /* Largeur fixe */
+    max-width: 1500px;
+    height: 360px; /* Hauteur fixe */
+    z-index: 3;
+}
+
+.frametriggers11 {
+    position: absolute;
+    top: 3257px; /* Position fixe depuis le haut */
+    left: -350px; /* Position fixe depuis la gauche */
+    width: 410px; /* Largeur fixe */
+    max-width: 1500px;
+    height: 360px; /* Hauteur fixe */
+    z-index: 3;
+}
+
+.frametriggers12 {
+    position: absolute;
+    top: 3257px; /* Position fixe depuis le haut */
+    left: 710px; /* Position fixe depuis la gauche */
+    width: 410px; /* Largeur fixe */
+    max-width: 1500px;
+    height: 360px; /* Hauteur fixe */
+    z-index: 3;
+}
+
+.texttriggers8 {
+    position: absolute;
+    top: 3200px; /* Position fixe depuis le haut */
+    left: -210px; /* Position fixe depuis la gauche */
+    width: 1000px; /* Largeur fixe */
+    max-width: 1200px;
+    height: 600px; /* Hauteur fixe */
+    text-align: left;
+    z-index: 7;
+}
+
+.texttriggers9 {
+    position: absolute;
+    top: 3700px; /* Position fixe depuis le haut */
+    left: -210px; /* Position fixe depuis la gauche */
+    width: 1200px; /* Largeur fixe */
+    max-width: 1200px;
+    height: 600px; /* Hauteur fixe */
+    text-align: left;
+    z-index: 7;
+}
+
 /* END */
 /* Conteneur du bouton de scroll pour _titles */
 .scroll-button-container_triggers {
     position: absolute; /* Positionnement absolu */
-    top: 3800px; /* Position verticale */
+    top: 3900px; /* Position verticale */
     left: 50%; /* Centre horizontalement */
     transform: translateX(-50%); /* Corrige le centrage exact */
 }
