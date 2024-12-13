@@ -832,11 +832,18 @@ a:focus {
     color: #ffffff;
 }
 
-#gender_graph {
+#gender_graph .graph-container{
     position: absolute;
+    top: 8000px;
+    left: -800px;
+    max-height: 100px;    
+}
+
+#gender_graph {
     top: 170px;
-    left: -285px;
-    max-height: 100px;
+    left: -280px;
+    width: 100%;
+    height:100%;
 }
 
 .frame-image-Diversity-1{
@@ -860,7 +867,7 @@ a:focus {
     position: absolute;
     width: 550px;
     left: 550px;
-    top: 150px;
+    top: 210px;
     text-align: left;
 }
 
