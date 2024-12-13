@@ -646,7 +646,7 @@ a:focus {
 .Titles-section {
     position: relative;
     width: 1440px; /* Largeur fixe pour éviter tout ajustement */
-    min-height: 2980px; /* Hauteur fixe */
+    min-height: 4980px; /* Hauteur fixe */
     margin: 0 auto; /* Centre horizontalement sur la page */
     padding: 50px 0;
     color: #fff;
@@ -721,6 +721,63 @@ a:focus {
     text-align: left;
     z-index: 7;
 }
+
+
+/* FIG 2 */
+
+.plot2 {
+    position: absolute;
+    top: 1520px; /* Position fixe depuis le haut */
+    left: -190px; /* Position fixe depuis la gauche */
+    width: 640px; /* Largeur fixe */
+    max-width: 1500px;
+    height: 380px; /* Hauteur fixe */
+    z-index: 5;
+}
+
+.frame2 {
+    position: absolute;
+    top: 1460px; /* Position fixe depuis le haut */
+    left: -570px; /* Position fixe depuis la gauche */
+    width: 770px; /* Largeur fixe */
+    max-width: 1500px;
+    height: 500px; /* Hauteur fixe */
+    z-index: 3;
+}
+
+.perso2 {
+    position: absolute;
+    top: 1240px; /* Position fixe depuis le haut */
+    left: -650px; /* Position fixe depuis la gauche */
+    width: 260px; /* Largeur fixe */
+    max-width: 1500px;
+    height: 280px; /* Hauteur fixe */
+    z-index: 7;
+}
+
+.text2 {
+    position: absolute;
+    top: 1470px; /* Position fixe depuis le haut */
+    left: 550px; /* Position fixe depuis la gauche */
+    width: 630px; /* Largeur fixe */
+    max-width: 1500px;
+    height: 600px; /* Hauteur fixe */
+    text-align: left;
+    z-index: 7;
+}
+
+.text22 {
+    position: absolute;
+    top: 2040px; /* Position fixe depuis le haut */
+    left: -220px; /* Position fixe depuis la gauche */
+    width: 1400px; /* Largeur fixe */
+    max-width: 1500px;
+    height: 600px; /* Hauteur fixe */
+    text-align: left;
+    z-index: 7;
+}
+
+
 
 
 /* END */
