@@ -624,19 +624,24 @@ a:focus {
 /* fig 4 */
 .text-content7 {
     position: absolute;
-    top: 3000px;
+    top: 2700px;
+    width: 500px;
+    left: 500px;
 }
 
-.frame-image-4{
+.frame-image4{
     position: absolute;
-    top: 2600px;
-    left: -500px;
+    top: 2525px;
+    left: -830px;
+    max-width: 1000px;
+    width: 850px;
+    height: 600px;
 }
 
 #themes_over_time {
     position: absolute;
     top: 2600px;
-    left: -500px;
+    left: -250px;
 }
 
 /* Bouton de scroll  container*/
