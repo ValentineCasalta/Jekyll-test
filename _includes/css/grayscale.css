@@ -32,14 +32,14 @@ h6 {
 
 p {
     margin: 0 0 25px;
-    font-size: 19px;
+    font-size: 18px;
     line-height: 1.5;
 }
 
 @media(min-width:767px) {
     p {
         margin: 0 0 35px;
-        font-size: 18px;
+        font-size: 20px;
         line-height: 1.6;
     }
 }
@@ -1080,6 +1080,66 @@ a:focus {
     height: 600px; /* Hauteur fixe */
     text-align: right;
     z-index: 7;
+}
+
+.frametriggers1 {
+    position: absolute;
+    top: 878px; /* Position fixe depuis le haut */
+    left: -160px; /* Position fixe depuis la gauche */
+    width: 410px; /* Largeur fixe */
+    max-width: 1500px;
+    height: 390px; /* Hauteur fixe */
+    z-index: 3;
+}
+
+.frametriggers2 {
+    position: absolute;
+    top: 980px; /* Position fixe depuis le haut */
+    left: 360px; /* Position fixe depuis la gauche */
+    width: 410px; /* Largeur fixe */
+    max-width: 1500px;
+    height: 390px; /* Hauteur fixe */
+    z-index: 3;
+}
+
+.frametriggers3 {
+    position: absolute;
+    top: 1340px; /* Position fixe depuis le haut */
+    left: -780px; /* Position fixe depuis la gauche */
+    width: 410px; /* Largeur fixe */
+    max-width: 1500px;
+    height: 390px; /* Hauteur fixe */
+    z-index: 3;
+}
+
+.frametriggers4 {
+    position: absolute;
+    top: 1500px; /* Position fixe depuis le haut */
+    left: 690px; /* Position fixe depuis la gauche */
+    width: 410px; /* Largeur fixe */
+    max-width: 1500px;
+    height: 390px; /* Hauteur fixe */
+    z-index: 3;
+}
+
+.frametriggers5 {
+    position: absolute;
+    top: 1810px; /* Position fixe depuis le haut */
+    left: -469px; /* Position fixe depuis la gauche */
+    width: 410px; /* Largeur fixe */
+    max-width: 1500px;
+    height: 390px; /* Hauteur fixe */
+    z-index: 3;
+}
+
+.frametriggers6 {
+    position: absolute;
+    top: 1983px; /* Position fixe depuis le haut */
+    left: 61px; /* Position fixe depuis la gauche */
+    width: 410px; /* Largeur fixe */
+    max-width: 1500px;
+    height: 390px; /* Hauteur fixe */
+    z-index: 3;
 }
 
 /* Content entre genres */ 
