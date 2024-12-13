@@ -1615,37 +1615,33 @@ a:focus {
 /* Historical */
 
 .Historical-section {
-    display: table;
-    width: 100%;
-    height: auto;
-    padding: 100px 0;
-    text-align: center;
-    color: #ffffff;
-    background: url(/img/Entrance.webp) no-repeat bottom center scroll;
+    position: relative;
+    width: 1440px; /* Largeur fixe pour éviter tout ajustement */
+    min-height: 4080px; /* Hauteur fixe */
+    margin: 0 auto; /* Centre horizontalement sur la page */
+    padding: 50px 0;
+    color: #fff;
+    background: url(/img/long_paper2.png) repeat; /* Maintient la répétition */
     background-color: {{ site.color.primary-dark }};
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
+    background-size: cover; /* Garde la taille originale de l'image */
 }
+
 
 /* #################################################################################### */
 /* Movie Collection */
 
 .Collection-section {
-    display: table;
-    width: 100%;
-    height: auto;
-    padding: 100px 0;
-    text-align: center;
-    color: #ffffff;
-    background: url(/img/Entrance.webp) no-repeat bottom center scroll;
+    position: relative;
+    width: 1440px; /* Largeur fixe pour éviter tout ajustement */
+    min-height: 4080px; /* Hauteur fixe */
+    margin: 0 auto; /* Centre horizontalement sur la page */
+    padding: 50px 0;
+    color: #fff;
+    background: url(/img/long_paper.png) repeat; /* Maintient la répétition */
     background-color: {{ site.color.primary-dark }};
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
+    background-size: cover; /* Garde la taille originale de l'image */
 }
+
 
 /* #################################################################################### */
 /* End */
@@ -1653,11 +1649,12 @@ a:focus {
 .End-section {
     display: table;
     width: 100%;
-    height: auto;
+    height: 150vh;
+    min-height: 1080px;
     padding: 100px 0;
     text-align: center;
     color: #ffffff;
-    background: url(/img/Manoir.jpg) no-repeat bottom center scroll;
+    background: url(/img/portail.png) no-repeat bottom center scroll;
     background-color: {{ site.color.primary-dark }};
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -1665,6 +1662,7 @@ a:focus {
     -o-background-size: cover;
 }
 
+/* #################################################################################### */
 
 @media(min-width:767px) {
     .about-section {
