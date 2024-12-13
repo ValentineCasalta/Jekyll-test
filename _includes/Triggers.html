@@ -2,11 +2,75 @@
 <section id="Triggers" class="content-section text-center">
     <div class="Triggers-section">
         <div class="col-lg-8 col-lg-offset-2">
-                <h2>Triggers</h2>
-                <p>
-                    Plots
+            <h2>The hall of Fears</h2>
+
+
+            <!-- Joke -->
+            <div class="col-md-4">
+                <img src="/img/porte.png" alt="Horror Frame" class="img-responsive porte">
+            </div>
+
+            <div class="col-md-4">
+                <img src="/img/perso_gené.png" alt="Horror Frame" class="img-responsive persotriggers0">
+            </div>
+
+            <div class="col-md-12 texttriggers0">
+                <p> Now we are in the hall of all fears, an other beautiful piece of my master's collection.
+                    Dracula uses this room to study how to scare people. As you may imagine, this evolves over the years, the public...
+
+                    Here behind this door... Oh, it seems that it's the storage room, where we put the unprocessed data... I guess I forgot to close the door!
+                     Please forget that and let's continue, shall we?
                 </p>
-                <a href="#End" class="btn btn-circle page-scroll">
+            </div>
+
+    
+            <div class="col-md-12 texttriggers00">
+                <p> First, here are some samples of our content's study collection. You can observe the proportion of
+                    movies  AMONG THE HORROR MOVIES that contain a certain type of content. Interesting isn't it? 
+                </p>
+            </div>
+
+            <!-- List of contents in horror movies-->
+            <div class="col-md-4">
+                <div class="graphtrigger1">
+                    {% include /Plots/Triggers/Movies_with_a_kid_that_dies.html %}
+                </div>
+            </div>    
+
+            <div class="col-md-4">
+                <div class="graphtrigger2">
+                    {% include /Plots/Triggers/Movies_with_a_sad_ending.html %}
+                </div>
+            </div>    
+
+            <div class="col-md-4">
+                <div class="graphtrigger3">
+                    {% include /Plots/Triggers/Movies_with_jump_scares.html %}
+                </div>
+            </div>    
+
+            <div class="col-md-4">
+                <div class="graphtrigger4">
+                    {% include /Plots/Triggers/Movies_with_religion.html %}
+                </div>
+            </div>    
+
+            <div class="col-md-4">
+                <div class="graphtrigger5">
+                    {% include /Plots/Triggers/Movies_with_someone_that_dies.html %}
+                </div>
+            </div>    
+
+            <div class="col-md-4">
+                <div class="graphtrigger6">
+                    {% include /Plots/Triggers/Movies_with_torture.html %}
+                </div>
+            </div>    
+
+
+            <!-- Bouton de scroll -->
+            <div class="scroll-button-container_triggers">
+                <a href="#Titles" class="btn btn-circle page-scroll_triggers">
                     <i class="fa fa-angle-double-down animated"></i>
                 </a>
             </div>

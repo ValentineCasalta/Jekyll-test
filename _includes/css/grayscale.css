@@ -825,36 +825,130 @@ a:focus {
 /* Tropes */
 
 .Tropes-section {
-    display: table;
-    width: 100%;
-    height: auto;
-    padding: 100px 0;
-    text-align: center;
-    color: #ffffff;
-    background: url(/img/Manoir.jpg) no-repeat bottom center scroll;
+    position: relative;
+    width: 1440px; /* Largeur fixe pour éviter tout ajustement */
+    min-height: 3080px; /* Hauteur fixe */
+    margin: 0 auto; /* Centre horizontalement sur la page */
+    padding: 50px 0;
+    color: #fff;
+    background: url(/img/long_paper5.png) repeat; /* Maintient la répétition */
     background-color: {{ site.color.primary-dark }};
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
+    background-size: cover; /* Garde la taille originale de l'image */
 }
 
 /* #################################################################################### */
 /* Triggers */
 
 .Triggers-section {
-    display: table;
-    width: 100%;
-    height: auto;
-    padding: 100px 0;
-    text-align: center;
-    color: #ffffff;
-    background: url(/img/Manoir.jpg) no-repeat bottom center scroll;
+    position: relative;
+    width: 1440px; /* Largeur fixe pour éviter tout ajustement */
+    min-height: 3080px; /* Hauteur fixe */
+    margin: 0 auto; /* Centre horizontalement sur la page */
+    padding: 50px 0;
+    color: #fff;
+    background: url(/img/long_paper3.png) repeat; /* Maintient la répétition */
     background-color: {{ site.color.primary-dark }};
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
+    background-size: cover; /* Garde la taille originale de l'image */
+}
+
+/* Joke */
+
+.porte {
+    position: absolute;
+    top: 50px; /* Position fixe depuis le haut */
+    left: 470px; /* Position fixe depuis la gauche */
+    width: 570px; /* Largeur fixe */
+    max-width: 1500px;
+    height: 800px; /* Hauteur fixe */
+    z-index: 3;
+}
+
+.persotriggers0 {
+    position: absolute;
+    top: 130px; /* Position fixe depuis le haut */
+    left: 170px; /* Position fixe depuis la gauche */
+    width: 270px; /* Largeur fixe */
+    max-width: 1500px;
+    height: 650px; /* Hauteur fixe */
+    z-index: 3;
+}
+
+.texttriggers0 {
+    position: absolute;
+    top: 340px; /* Position fixe depuis le haut */
+    left: -170px; /* Position fixe depuis la gauche */
+    width: 700px; /* Largeur fixe */
+    max-width: 1500px;
+    height: 600px; /* Hauteur fixe */
+    text-align: left;
+    z-index: 7;
+}
+
+.texttriggers00 {
+    position: absolute;
+    top: 800px; /* Position fixe depuis le haut */
+    left: -170px; /* Position fixe depuis la gauche */
+    width: 700px; /* Largeur fixe */
+    max-width: 1500px;
+    height: 600px; /* Hauteur fixe */
+    text-align: left;
+    z-index: 7;
+}
+
+/* List of content */
+.graphtrigger1 {
+    position: absolute;
+    top: 930px; /* Position fixe depuis le haut */
+    left: -750px; /* Position fixe depuis la gauche */
+    width: 300px; /* Largeur fixe */
+    max-width: 500px;
+    height: 300px; /* Hauteur fixe */
+    text-align: left;
+    z-index: 7;
+}
+
+.graphtrigger2 {
+    position: absolute;
+    top: 1030px; /* Position fixe depuis le haut */
+    left: 700px; /* Position fixe depuis la gauche */
+    width: 300px; /* Largeur fixe */
+    max-width: 500px;
+    height: 300px; /* Hauteur fixe */
+    text-align: left;
+    z-index: 7;
+}
+
+.graphtrigger3 {
+    position: absolute;
+    top: 1500px; /* Position fixe depuis le haut */
+    left: -500px; /* Position fixe depuis la gauche */
+    width: 300px; /* Largeur fixe */
+    max-width: 500px;
+    height: 300px; /* Hauteur fixe */
+    text-align: left;
+    z-index: 7;
+}
+
+
+/* END */
+/* Conteneur du bouton de scroll pour _titles */
+.scroll-button-container_triggers {
+    position: absolute; /* Positionnement absolu */
+    top: 2800px; /* Position verticale */
+    left: 50%; /* Centre horizontalement */
+    transform: translateX(-50%); /* Corrige le centrage exact */
+}
+
+/* Style spécifique pour le bouton avec _titles */
+.btn-circle.page-scroll_triggers {
+    font-size: 24px;
+    color: #fff; /* Couleur du texte */
+    background-color: #333; /* Couleur de fond */
+    border-radius: 50%; /* Forme circulaire */
+    padding: 10px 15px; /* Espacement interne */
+    text-align: center; /* Centrage du contenu */
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3); /* Ombre */
+    border: none; /* Enlève toute bordure par défaut */
 }
 
 /* #################################################################################### */
