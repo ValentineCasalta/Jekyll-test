@@ -409,7 +409,7 @@ a:focus {
 
 .World-section {
     position: relative;
-    width: 1440px; /* Largeur fixe pour éviter tout ajustement */
+    width: 100%; /* Largeur fixe pour éviter tout ajustement */
     min-height: 2980px; /* Hauteur fixe */
     margin: 0 auto; /* Centre horizontalement sur la page */
     padding: 50px 0;
@@ -434,7 +434,7 @@ a:focus {
     z-index: 15;
 }
 
-.hist {
+#release_year_graph {
     position: absolute;
     top: 150px; /* Position fixe depuis le haut */
     left: -280px; /* Position fixe depuis la gauche */
@@ -451,7 +451,7 @@ a:focus {
     left: -610px; /* Position fixe depuis la gauche */
     width: 850px; /* Largeur fixe */
     max-width: 1500px;
-    height: 480px; /* Hauteur fixe */
+    height: 510px; /* Hauteur fixe */
     z-index: 3;
 }
 
@@ -528,7 +528,7 @@ a:focus {
     z-index: 5;
 }
 
-.map {
+#map_graph {
     position: absolute;
     top: 1200px; /* Position fixe depuis le haut */
     left: 280px; /* Position fixe depuis la gauche */
