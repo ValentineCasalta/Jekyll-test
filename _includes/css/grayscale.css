@@ -808,7 +808,7 @@ a:focus {
 .Diversity-section {
     display: table;
     width: 100%;
-    height: auto;
+    min-height: 3000px;
     padding: 100px 0;
     text-align: center;
     color: #ffffff;
@@ -818,6 +818,50 @@ a:focus {
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
+}
+
+/* ################# */
+/* Intro */
+
+.text-content-Diversity-1 {
+    position: absolute;
+    width: 1130px; /* Largeur fixe */
+    left: -320px; /* Position fixe depuis la gauche */
+    top: 70px; /* Position fixe depuis le haut */
+    text-align: left;
+    color: #ffffff;
+}
+
+#gender_graph {
+    position: absolute;
+    top: 170px;
+    left: -285px;
+    max-height: 100px;
+}
+
+.frame-image-Diversity-1{
+    position: absolute;
+    top: 100px;
+    left: -600px;
+    width: 725px;
+    height: 590px;
+    max-width: 2000px;
+
+}
+
+.perso-image-Diversity-1{
+    position: absolute;
+    left: -210px;
+    top: 140px;
+    z-index: 10;
+}
+
+.text-content-Diversity-2 {
+    position: absolute;
+    width: 550px;
+    left: 550px;
+    top: 150px;
+    text-align: left;
 }
 
 
