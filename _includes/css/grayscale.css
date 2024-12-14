@@ -646,7 +646,7 @@ a:focus {
 .Titles-section {
     position: relative;
     width: 1440px; /* Largeur fixe pour éviter tout ajustement */
-    min-height: 4980px; /* Hauteur fixe */
+    min-height: 6880px; /* Hauteur fixe */
     margin: 0 auto; /* Centre horizontalement sur la page */
     padding: 50px 0;
     color: #fff;
@@ -656,10 +656,10 @@ a:focus {
 }
 
 /* Intro */
-.text0 {
+.texttitles0 {
     position: absolute;
-    width: 1130px; /* Largeur fixe */
-    left: -70px; /* Position fixe depuis la gauche */
+    width: 1250px; /* Largeur fixe */
+    left: -165px; /* Position fixe depuis la gauche */
     top: 100px; /* Position fixe depuis le haut */
     text-align: center;
     color: #ffffff;
@@ -670,27 +670,28 @@ a:focus {
 
 /* PLOT 1 */
 
-.plot1 {
+.plottitles1 {
     position: absolute;
     top: 300px; /* Position fixe depuis le haut */
-    left: 450px; /* Position fixe depuis la gauche */
-    width: 640px; /* Largeur fixe */
+    left: 500px; /* Position fixe depuis la gauche */
+    width: 1540px; /* Largeur fixe */
     max-width: 1500px;
-    height: 380px; /* Hauteur fixe */
+    height: 270px; /* Hauteur fixe */
     z-index: 5;
 }
 
-.frame1 {
+
+.frametitles1 {
     position: absolute;
-    top: 240px; /* Position fixe depuis le haut */
-    left: 75px; /* Position fixe depuis la gauche */
-    width: 770px; /* Largeur fixe */
+    top: 230px; /* Position fixe depuis le haut */
+    left: 134px; /* Position fixe depuis la gauche */
+    width: 660px; /* Largeur fixe */
     max-width: 1500px;
-    height: 500px; /* Hauteur fixe */
+    height: 640px; /* Hauteur fixe */
     z-index: 3;
 }
 
-.perso1 {
+.persotitles1 {
     position: absolute;
     top: 240px; /* Position fixe depuis le haut */
     left: -430px; /* Position fixe depuis la gauche */
@@ -700,9 +701,9 @@ a:focus {
     z-index: 7;
 }
 
-.text1 {
+.texttitles1 {
     position: absolute;
-    top: 270px; /* Position fixe depuis le haut */
+    top: 390px; /* Position fixe depuis le haut */
     left: -220px; /* Position fixe depuis la gauche */
     width: 460px; /* Largeur fixe */
     max-width: 1500px;
@@ -711,7 +712,7 @@ a:focus {
     z-index: 7;
 }
 
-.text11 {
+.texttitles11 {
     position: absolute;
     top: 940px; /* Position fixe depuis le haut */
     left: -220px; /* Position fixe depuis la gauche */
@@ -725,29 +726,30 @@ a:focus {
 
 /* FIG 2 */
 
-.plot2 {
+.plottitles2 {
     position: absolute;
-    top: 1520px; /* Position fixe depuis le haut */
-    left: -190px; /* Position fixe depuis la gauche */
+    top: 1420px; /* Position fixe depuis le haut */
+    left: -180px; /* Position fixe depuis la gauche */
     width: 640px; /* Largeur fixe */
     max-width: 1500px;
     height: 380px; /* Hauteur fixe */
     z-index: 5;
 }
 
-.frame2 {
+
+.frametitles2 {
     position: absolute;
-    top: 1460px; /* Position fixe depuis le haut */
-    left: -570px; /* Position fixe depuis la gauche */
-    width: 770px; /* Largeur fixe */
+    top: 1340px; /* Position fixe depuis le haut */
+    left: -540px; /* Position fixe depuis la gauche */
+    width: 665px; /* Largeur fixe */
     max-width: 1500px;
-    height: 500px; /* Hauteur fixe */
+    height: 650px; /* Hauteur fixe */
     z-index: 3;
 }
 
-.perso2 {
+.persotitles2 {
     position: absolute;
-    top: 1240px; /* Position fixe depuis le haut */
+    top: 1140px; /* Position fixe depuis le haut */
     left: -650px; /* Position fixe depuis la gauche */
     width: 260px; /* Largeur fixe */
     max-width: 1500px;
@@ -755,18 +757,18 @@ a:focus {
     z-index: 7;
 }
 
-.text2 {
+.texttitles2 {
     position: absolute;
-    top: 1470px; /* Position fixe depuis le haut */
-    left: 550px; /* Position fixe depuis la gauche */
-    width: 630px; /* Largeur fixe */
+    top: 1550px; /* Position fixe depuis le haut */
+    left: 450px; /* Position fixe depuis la gauche */
+    width: 670px; /* Largeur fixe */
     max-width: 1500px;
     height: 600px; /* Hauteur fixe */
     text-align: left;
     z-index: 7;
 }
 
-.text22 {
+.texttitles22 {
     position: absolute;
     top: 2040px; /* Position fixe depuis le haut */
     left: -220px; /* Position fixe depuis la gauche */
@@ -779,12 +781,223 @@ a:focus {
 
 
 
+/* FIG 3 */
+
+.plottitles3 {
+    position: absolute;
+    top: 2640px; /* Position fixe depuis le haut */
+    left: -176px; /* Position fixe depuis la gauche */
+    width: 640px; /* Largeur fixe */
+    max-width: 1500px;
+    height: 380px; /* Hauteur fixe */
+    z-index: 5;
+}
+
+
+.frametitles3 {
+    position: absolute;
+    top: 2560px; /* Position fixe depuis le haut */
+    left: -540px; /* Position fixe depuis la gauche */
+    width: 665px; /* Largeur fixe */
+    max-width: 1500px;
+    height: 650px; /* Hauteur fixe */
+    z-index: 3;
+}
+
+.persotitles3 {
+    position: absolute;
+    top: 2640px; /* Position fixe depuis le haut */
+    left: -265px; /* Position fixe depuis la gauche */
+    width: 300px; /* Largeur fixe */
+    max-width: 1500px;
+    height: 500px; /* Hauteur fixe */
+    z-index: 7;
+}
+
+.texttitles3 {
+    position: absolute;
+    top: 2700px; /* Position fixe depuis le haut */
+    left: 640px; /* Position fixe depuis la gauche */
+    width: 550px; /* Largeur fixe */
+    max-width: 1500px;
+    height: 680px; /* Hauteur fixe */
+    text-align: left;
+    z-index: 7;
+}
+
+
+/* FIG TITLES */
+
+.plottitles4 {
+    position: absolute;
+    top: 3500px; /* Position fixe depuis le haut */
+    left: 50px; /* Position fixe depuis la gauche */
+    width: 540px; /* Largeur fixe */
+    max-width: 1500px;
+    height: 450px; /* Hauteur fixe */
+    z-index: 5;
+}
+
+
+.frametitles4 {
+    position: absolute;
+    top: 3430px; /* Position fixe depuis le haut */
+    left: -320px; /* Position fixe depuis la gauche */
+    width: 650px; /* Largeur fixe */
+    max-width: 1500px;
+    height: 590px; /* Hauteur fixe */
+    z-index: 3;
+}
+
+.persotitles4 {
+    position: absolute;
+    top: 3440px; /* Position fixe depuis le haut */
+    left: -830px; /* Position fixe depuis la gauche */
+    width: 230px; /* Largeur fixe */
+    max-width: 1500px;
+    height: 650px; /* Hauteur fixe */
+    z-index: 7;
+}
+
+.texttitles4 {
+    position: absolute;
+    top: 3500px; /* Position fixe depuis le haut */
+    left: 640px; /* Position fixe depuis la gauche */
+    width: 550px; /* Largeur fixe */
+    max-width: 1500px;
+    height: 680px; /* Hauteur fixe */
+    text-align: left;
+    z-index: 7;
+}
+
+
+/* FIG TITLES 2 */
+
+.plottitles5 {
+    position: absolute;
+    top: 4400px; /* Position fixe depuis le haut */
+    left: 250px; /* Position fixe depuis la gauche */
+    width: 440px; /* Largeur fixe */
+    max-width: 1500px;
+    height: 350px; /* Hauteur fixe */
+    z-index: 5;
+}
+
+
+.frametitles5 {
+    position: absolute;
+    top: 4360px; /* Position fixe depuis le haut */
+    left: -110px; /* Position fixe depuis la gauche */
+    width: 537px; /* Largeur fixe */
+    max-width: 1500px;
+    height: 446px; /* Hauteur fixe */
+    z-index: 3;
+}
+
+.plottitles6 {
+    position: absolute;
+    top: 4830px; /* Position fixe depuis le haut */
+    left: 50px; /* Position fixe depuis la gauche */
+    width: 460px; /* Largeur fixe */
+    max-width: 1500px;
+    height: 350px; /* Hauteur fixe */
+    z-index: 5;
+}
+
+
+.frametitles6 {
+    position: absolute;
+    top: 4780px; /* Position fixe depuis le haut */
+    left: 630px; /* Position fixe depuis la gauche */
+    width: 550px; /* Largeur fixe */
+    max-width: 1500px;
+    height: 447px; /* Hauteur fixe */
+    z-index: 3;
+}
+
+.persotitles5 {
+    position: absolute;
+    top: 4550px; /* Position fixe depuis le haut */
+    left: 450px; /* Position fixe depuis la gauche */
+    width: 230px; /* Largeur fixe */
+    max-width: 1500px;
+    height: 300px; /* Hauteur fixe */
+    z-index: 7;
+}
+
+.texttitles5 {
+    position: absolute;
+    top: 4400px; /* Position fixe depuis le haut */
+    left: -200px; /* Position fixe depuis la gauche */
+    width: 400px; /* Largeur fixe */
+    max-width: 1500px;
+    height: 680px; /* Hauteur fixe */
+    text-align: left;
+    z-index: 7;
+}
+
+.texttitles52 {
+    position: absolute;
+    top: 4920px; /* Position fixe depuis le haut */
+    left: -200px; /* Position fixe depuis la gauche */
+    width: 800px; /* Largeur fixe */
+    max-width: 1500px;
+    height: 680px; /* Hauteur fixe */
+    text-align: left;
+    z-index: 7;
+}
+
+
+/* FIG TITLES 3 */
+
+.plottitles7 {
+    position: absolute;
+    top: 5700px; /* Position fixe depuis le haut */
+    left: -830px; /* Position fixe depuis la gauche */
+    width: 540px; /* Largeur fixe */
+    max-width: 1500px;
+    height: 450px; /* Hauteur fixe */
+    z-index: 5;
+}
+
+
+.frametitles7 {
+    position: absolute;
+    top: 5630px; /* Position fixe depuis le haut */
+    left: -270px; /* Position fixe depuis la gauche */
+    width: 650px; /* Largeur fixe */
+    max-width: 1500px;
+    height: 590px; /* Hauteur fixe */
+    z-index: 3;
+}
+
+.persotitles7 {
+    position: absolute;
+    top: 5700px; /* Position fixe depuis le haut */
+    left: 30px; /* Position fixe depuis la gauche */
+    width: 230px; /* Largeur fixe */
+    max-width: 1500px;
+    height: 650px; /* Hauteur fixe */
+    z-index: 7;
+}
+
+.texttitles7 {
+    position: absolute;
+    top: 5700px; /* Position fixe depuis le haut */
+    left: 640px; /* Position fixe depuis la gauche */
+    width: 550px; /* Largeur fixe */
+    max-width: 1500px;
+    height: 680px; /* Hauteur fixe */
+    text-align: left;
+    z-index: 7;
+}
+
 
 /* END */
 /* Conteneur du bouton de scroll pour _titles */
 .scroll-button-container_titles {
     position: absolute; /* Positionnement absolu */
-    top: 2800px; /* Position verticale */
+    top: 6680px; /* Position verticale */
     left: 50%; /* Centre horizontalement */
     transform: translateX(-50%); /* Corrige le centrage exact */
 }
