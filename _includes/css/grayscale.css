@@ -410,7 +410,7 @@ a:focus {
 .World-section {
     position: relative;
     width: 100%; /* Largeur fixe pour éviter tout ajustement */
-    min-height: 2980px; /* Hauteur fixe */
+    min-height: 3300px; /* Hauteur fixe */
     margin: 0 auto; /* Centre horizontalement sur la page */
     padding: 50px 0;
     color: #fff;
@@ -619,6 +619,29 @@ a:focus {
     color: #ffffff;
     font-family: 'Open Sans', sans-serif;
     z-index: 15;
+}
+
+/* fig 4 */
+.text-content7 {
+    position: absolute;
+    top: 2700px;
+    width: 500px;
+    left: 500px;
+}
+
+.frame-image4{
+    position: absolute;
+    top: 2525px;
+    left: -830px;
+    max-width: 1000px;
+    width: 850px;
+    height: 600px;
+}
+
+#themes_over_time {
+    position: absolute;
+    top: 2600px;
+    left: -250px;
 }
 
 /* Bouton de scroll  container*/
