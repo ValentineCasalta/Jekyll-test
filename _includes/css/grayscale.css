@@ -726,7 +726,7 @@ a:focus {
 
 .texttitles1 {
     position: absolute;
-    top: 390px; /* Position fixe depuis le haut */
+    top: 310px; /* Position fixe depuis le haut */
     left: -220px; /* Position fixe depuis la gauche */
     width: 460px; /* Largeur fixe */
     max-width: 1500px;
@@ -737,7 +737,7 @@ a:focus {
 
 .texttitles11 {
     position: absolute;
-    top: 940px; /* Position fixe depuis le haut */
+    top: 1030px; /* Position fixe depuis le haut */
     left: -220px; /* Position fixe depuis la gauche */
     width: 1400px; /* Largeur fixe */
     max-width: 1500px;
@@ -2077,6 +2077,61 @@ a:focus {
 }
 
 
+/* END */
+
+.persodracula1 {
+    position: absolute;
+    top: 2885px; /* Position fixe depuis le haut */
+    left: 200px; /* Position fixe depuis la gauche */
+    width: 255px; /* Largeur fixe */
+    max-width: 1500px;
+    height: 600px; /* Hauteur fixe */
+    z-index: 3;
+}
+
+.persodracula2 {
+    position: absolute;
+    top: 2705px; /* Position fixe depuis le haut */
+    left: 330px; /* Position fixe depuis la gauche */
+    width: 550px; /* Largeur fixe */
+    max-width: 1500px;
+    height: 1050px; /* Hauteur fixe */
+    z-index: 7;
+}
+
+.textdracula1 {
+    position: absolute;
+    top: 3105px; /* Position fixe depuis le haut */
+    left: -100px; /* Position fixe depuis la gauche */
+    width: 250px; /* Largeur fixe */
+    max-width: 1500px;
+    height: 350px; /* Hauteur fixe */
+    z-index: 7;
+}
+
+
+
+/* Conteneur du bouton de scroll pour _titles */
+.scroll-button-container_collection {
+    position: absolute; /* Positionnement absolu */
+    top: 1080px; /* Position verticale */
+    left: 100; /* Centre horizontalement */
+    transform: translateX(-50%); /* Corrige le centrage exact */
+}
+
+/* Style spécifique pour le bouton avec _titles */
+.btn-circle.page-scroll_collection {
+    font-size: 24px;
+    color: #fff; /* Couleur du texte */
+    background-color: #333; /* Couleur de fond */
+    border-radius: 50%; /* Forme circulaire */
+    padding: 10px 15px; /* Espacement interne */
+    text-align: center; /* Centrage du contenu */
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3); /* Ombre */
+    border: none; /* Enlève toute bordure par défaut */
+}
+
+
 /* #################################################################################### */
 /* End */
 
@@ -2094,6 +2149,27 @@ a:focus {
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
+}
+
+.persoend1 {
+    position: absolute;
+    top: 75px; /* Position fixe depuis le haut */
+    left: 30px; /* Position fixe depuis la gauche */
+    width: 350px; /* Largeur fixe */
+    max-width: 1500px;
+    height: 750px; /* Hauteur fixe */
+    z-index: 7;
+}
+
+.textend1 {
+    position: absolute;
+    top: 280px; /* Position fixe depuis le haut */
+    left: 620px; /* Position fixe depuis la gauche */
+    width: 620px; /* Largeur fixe */
+    max-width: 1500px;
+    height: 680px; /* Hauteur fixe */
+    text-align: left;
+    z-index: 7;
 }
 
 /* #################################################################################### */
