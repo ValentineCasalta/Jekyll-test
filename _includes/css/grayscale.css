@@ -2066,7 +2066,7 @@ a:focus {
 
 .Collection-section {
     position: relative;
-    width: 1440px; /* Largeur fixe pour éviter tout ajustement */
+    width: 100%; /* Largeur fixe pour éviter tout ajustement */
     min-height: 4080px; /* Hauteur fixe */
     margin: 0 auto; /* Centre horizontalement sur la page */
     padding: 50px 0;
@@ -2076,13 +2076,157 @@ a:focus {
     background-size: cover; /* Garde la taille originale de l'image */
 }
 
+/* Figures */
+
+.text-collection-1{
+    position: absolute;
+    width: 1130px; /* Largeur fixe */
+    left: -320px; /* Position fixe depuis la gauche */
+    top: 70px; /* Position fixe depuis le haut */
+    text-align: left;
+    color: #ffffff;
+}
+
+
+.countries {
+    position: absolute;
+    top: 190px;
+    left: -280px;
+    width: 600px;
+    max-width: 800px;
+    height: 400px;
+}
+
+.frame-countries {
+    position: absolute;
+    top: 125px;
+    left: -590px;
+    width: 730px;
+    max-width: 800px;
+    height: 525px;    
+}
+
+.genres {
+    position: absolute;
+    top: 140px;
+    left: 90px;
+    width: 375px;
+    max-width: 800px;
+    height: 250px;
+}
+
+.frame-genres {
+    position: absolute;
+    top: 102px;
+    left: 535px;
+    width: 452px;
+    max-width: 800px;
+    height: 325px;
+}
+
+.number {
+    position: absolute;
+    top: 515px;
+    left: 220px;
+    width: 350px;
+    max-width: 800px;
+    height: 300px;
+}
+
+.frame-number {
+    position: absolute;
+    top: 470px;
+    left: -60px;
+    width: 432px;
+    max-width: 800px;
+    height: 388px;
+}
+
+.actors_CMU {
+    position: absolute;
+    top: 1035px;
+    left: -290px;
+    width: 560px;
+    max-width: 800px;
+    height: 250px;
+}
+
+.frame-actors_CMU {
+    position: absolute;
+    top: 990px;
+    left: -600px;
+    width: 695px;
+    max-width: 800px;
+    height: 340px;
+}
+
+.actors_horror {
+    position: absolute;
+    top: 945px;
+    left: -25px;
+    width: 580px;
+    max-width: 800px;
+    height: 250px;
+}
+
+.frame-actors_horror {
+    position: absolute;
+    top: 900px;
+    left: 400px;
+    width: 700px;
+    max-width: 800px;
+    height: 340px;
+}
+
+.CMU {
+    position: absolute;
+    top: 710px;
+    left: -400px;
+    width: 450px;
+    height: 200px;
+    max-width: 800px;
+}
+
+.frame-CMU {
+    position: absolute;
+    top: 675px;
+    left: -690px;
+    width: 550px;
+    height: 270px;
+    max-width: 800px;
+}
+
+.horror {
+    position: absolute;
+    top: 1335px;
+    left: 475px;
+    width: 450px;
+    height: 200px;
+    max-width: 800px;
+}
+
+.frame-horror {
+    position: absolute;
+    top: 1300px;
+    left: 200px;
+    width: 530px;
+    height: 270px;
+    max-width: 800px;
+}
+
 
 /* END */
 
+.perso-collection {
+    position: absolute;
+    top: -70px;
+    left: 550px;
+}
+
 .persodracula1 {
     position: absolute;
-    top: 2885px; /* Position fixe depuis le haut */
-    left: 200px; /* Position fixe depuis la gauche */
+    top: 1400px; /* Position fixe depuis le haut */
+    left: -600px; /* Position fixe depuis la gauche */
     width: 255px; /* Largeur fixe */
     max-width: 1500px;
     height: 600px; /* Hauteur fixe */
@@ -2091,7 +2235,7 @@ a:focus {
 
 .persodracula2 {
     position: absolute;
-    top: 2705px; /* Position fixe depuis le haut */
+    top: 1505px; /* Position fixe depuis le haut */
     left: 330px; /* Position fixe depuis la gauche */
     width: 550px; /* Largeur fixe */
     max-width: 1500px;
