@@ -22,8 +22,9 @@ title: Horror movies, the collective nightmares of society
 email: Team abracAD4bra
 description:  # this means to ignore newlines until "baseurl:"
 
+domain: horror_movies.github.io  
 baseurl: "Jekyll-test" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://horror_movies.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
 github_username:  jekyll
 
