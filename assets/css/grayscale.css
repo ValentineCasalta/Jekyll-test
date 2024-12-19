@@ -704,7 +704,6 @@ a:focus {
     width: 260px; /* Largeur fixe */
     max-width: 1500px;
     height: 600px; /* Hauteur fixe */
-    z-index: 7;
 }
 
 .texttitles1 {
