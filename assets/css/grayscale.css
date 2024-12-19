@@ -137,6 +137,7 @@ a:focus {
     display: table;
     width: 100%;
     height: 100vh; /* Utilise 100vh pour que l'élément prenne toute la hauteur de la fenêtre */
+    min-height: 1000px;
     padding: 0; /* Supprime le padding pour éviter les espaces inutiles */
     text-align: center;
     color: #fff;
@@ -260,8 +261,8 @@ a:focus {
 .about-section {
     display: table;
     width: 100%;
-    height: 150vh;
-    min-height: 1080px;
+    height: 100vh;
+    min-height: 1000px;
     padding: 100px 0;
     text-align: center;
     color: #ffffff;
@@ -346,7 +347,7 @@ a:focus {
 .text_welcome5 {
     position: absolute;
     width: 900px; /* Largeur fixe */
-    left: 190px; /* Position fixe depuis la gauche */
+    left: 200px; /* Position fixe depuis la gauche */
     top: 850px; /* Position fixe depuis le haut */
     text-align: left;
     color: #ffffff;
