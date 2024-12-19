@@ -306,6 +306,7 @@ a:focus {
     top: 100px; /* Position fixe depuis le haut */
     text-align: left;
     color: #ffffff;
+    font-family: 'Open Sans', sans-serif;
     z-index: 10;
 }
 
@@ -317,6 +318,7 @@ a:focus {
     top: 250px; /* Position fixe depuis le haut */
     text-align: left;
     color: #ffffff;
+    font-family: 'Open Sans', sans-serif;
     z-index: 11;
 }
 
@@ -328,6 +330,7 @@ a:focus {
     top: 450px; /* Position fixe depuis le haut */
     text-align: left;
     color: #ffffff;
+    font-family: 'Open Sans', sans-serif;
     z-index: 12;
 }
 
@@ -339,6 +342,7 @@ a:focus {
     top: 600px; /* Position fixe depuis le haut */
     text-align: left;
     color: #ffffff;
+    font-family: 'Open Sans', sans-serif;
     z-index: 13;
 }
 
@@ -351,6 +355,7 @@ a:focus {
     text-align: left;
     color: #ffffff;
     font-size: 100px; /* Forcer la taille du texte */
+    font-family: 'Open Sans', sans-serif;
     z-index: 14;
 }
 
@@ -419,6 +424,7 @@ a:focus {
     top: 90px; /* Position fixe depuis le haut */
     text-align: left;
     color: #ffffff;
+    font-family: 'Open Sans', sans-serif;
     z-index: 15;
 }
 
@@ -462,6 +468,7 @@ a:focus {
     top: 200px; /* Position fixe depuis le haut */
     text-align: left;
     color: #ffffff;
+    font-family: 'Open Sans', sans-serif;
     z-index: 15;
 }
 
@@ -473,6 +480,7 @@ a:focus {
     top: 700px; /* Position fixe depuis le haut */
     text-align: left;
     color: #ffffff;
+    font-family: 'Open Sans', sans-serif;
     z-index: 15;
 }
 
@@ -484,6 +492,7 @@ a:focus {
     top: 800px; /* Position fixe depuis le haut */
     text-align: left;
     color: #ffffff;
+    font-family: 'Open Sans', sans-serif;
     z-index: 15;
 }
 
@@ -531,6 +540,7 @@ a:focus {
     top: 1200px; /* Position fixe depuis le haut */
     text-align: left;
     color: #ffffff;
+    font-family: 'Open Sans', sans-serif;
     z-index: 15;
 }
 
@@ -545,6 +555,7 @@ a:focus {
     top: 1820px; /* Position fixe depuis le haut */
     text-align: left;
     color: #ffffff;
+    font-family: 'Open Sans', sans-serif;
     z-index: 15;
 }
 
@@ -600,6 +611,7 @@ a:focus {
     top: 2700px; /* Position fixe depuis le haut */
     text-align: left;
     color: #ffffff;
+    font-family: 'Open Sans', sans-serif;
     z-index: 15;
 }
 
@@ -641,7 +653,7 @@ a:focus {
 .Titles-section {
     position: relative;
     width: 100%; /* Largeur fixe pour éviter tout ajustement */
-    min-height: 6480px; /* Hauteur fixe */
+    min-height: 6880px; /* Hauteur fixe */
     margin: 0 auto; /* Centre horizontalement sur la page */
     padding: 50px 0;
     color: #fff;
@@ -654,9 +666,9 @@ a:focus {
 .texttitles0 {
     position: absolute;
     width: 1250px; /* Largeur fixe */
-    left: -170px; /* Position fixe depuis la gauche */
+    left: -165px; /* Position fixe depuis la gauche */
     top: 100px; /* Position fixe depuis le haut */
-    text-align: left;
+    text-align: center;
     color: #ffffff;
     z-index: 15;
 }
@@ -666,18 +678,18 @@ a:focus {
 
 #plottitles1 {
     position: absolute;
-    top: 290px; /* Position fixe depuis le haut */
-    left: 450px; /* Position fixe depuis la gauche */
-    width: 100%; /* Largeur fixe */
+    top: 300px; /* Position fixe depuis le haut */
+    left: 500px; /* Position fixe depuis la gauche */
+    width: 1540px; /* Largeur fixe */
     max-width: 1500px;
-    height: 100%; /* Hauteur fixe */
-    z-index: 10;
+    height: 270px; /* Hauteur fixe */
+    z-index: 5;
 }
 
 
 .frametitles1 {
     position: absolute;
-    top: 220px; /* Position fixe depuis le haut */
+    top: 230px; /* Position fixe depuis le haut */
     left: 154px; /* Position fixe depuis la gauche */
     width: 660px; /* Largeur fixe */
     max-width: 1500px;
@@ -687,17 +699,17 @@ a:focus {
 
 .persotitles1 {
     position: absolute;
-    top: 230px; /* Position fixe depuis le haut */
-    left: -280px; /* Position fixe depuis la gauche */
+    top: 240px; /* Position fixe depuis le haut */
+    left: -430px; /* Position fixe depuis la gauche */
     width: 260px; /* Largeur fixe */
     max-width: 1500px;
     height: 600px; /* Hauteur fixe */
-    z-index: 12;
+    z-index: 7;
 }
 
 .texttitles1 {
     position: absolute;
-    top: 250px; /* Position fixe depuis le haut */
+    top: 310px; /* Position fixe depuis le haut */
     left: -220px; /* Position fixe depuis la gauche */
     width: 460px; /* Largeur fixe */
     max-width: 1500px;
@@ -708,9 +720,9 @@ a:focus {
 
 .texttitles11 {
     position: absolute;
-    top: 970px; /* Position fixe depuis le haut */
+    top: 1030px; /* Position fixe depuis le haut */
     left: -220px; /* Position fixe depuis la gauche */
-    width: 1300px; /* Largeur fixe */
+    width: 1400px; /* Largeur fixe */
     max-width: 1500px;
     height: 600px; /* Hauteur fixe */
     text-align: left;
@@ -723,7 +735,7 @@ a:focus {
 .plottitles2 {
     position: absolute;
     top: 1420px; /* Position fixe depuis le haut */
-    left: -240px; /* Position fixe depuis la gauche */
+    left: -180px; /* Position fixe depuis la gauche */
     width: 640px; /* Largeur fixe */
     max-width: 1500px;
     height: 380px; /* Hauteur fixe */
@@ -743,8 +755,8 @@ a:focus {
 
 .persotitles2 {
     position: absolute;
-    top: 1130px; /* Position fixe depuis le haut */
-    left: -400px; /* Position fixe depuis la gauche */
+    top: 1140px; /* Position fixe depuis le haut */
+    left: -650px; /* Position fixe depuis la gauche */
     width: 260px; /* Largeur fixe */
     max-width: 1500px;
     height: 280px; /* Hauteur fixe */
@@ -753,9 +765,9 @@ a:focus {
 
 .texttitles2 {
     position: absolute;
-    top: 1500px; /* Position fixe depuis le haut */
+    top: 1550px; /* Position fixe depuis le haut */
     left: 450px; /* Position fixe depuis la gauche */
-    width: 660px; /* Largeur fixe */
+    width: 670px; /* Largeur fixe */
     max-width: 1500px;
     height: 600px; /* Hauteur fixe */
     text-align: left;
@@ -764,9 +776,9 @@ a:focus {
 
 .texttitles22 {
     position: absolute;
-    top: 2045px; /* Position fixe depuis le haut */
+    top: 2040px; /* Position fixe depuis le haut */
     left: -220px; /* Position fixe depuis la gauche */
-    width: 1300px; /* Largeur fixe */
+    width: 1400px; /* Largeur fixe */
     max-width: 1500px;
     height: 600px; /* Hauteur fixe */
     text-align: left;
@@ -779,8 +791,8 @@ a:focus {
 
 .plottitles3 {
     position: absolute;
-    top: 2440px; /* Position fixe depuis le haut */
-    left: -235px; /* Position fixe depuis la gauche */
+    top: 2640px; /* Position fixe depuis le haut */
+    left: -176px; /* Position fixe depuis la gauche */
     width: 640px; /* Largeur fixe */
     max-width: 1500px;
     height: 380px; /* Hauteur fixe */
@@ -790,7 +802,7 @@ a:focus {
 
 .frametitles3 {
     position: absolute;
-    top: 2360px; /* Position fixe depuis le haut */
+    top: 2560px; /* Position fixe depuis le haut */
     left: -540px; /* Position fixe depuis la gauche */
     width: 665px; /* Largeur fixe */
     max-width: 1500px;
@@ -800,7 +812,7 @@ a:focus {
 
 .persotitles3 {
     position: absolute;
-    top: 2440px; /* Position fixe depuis le haut */
+    top: 2640px; /* Position fixe depuis le haut */
     left: -265px; /* Position fixe depuis la gauche */
     width: 300px; /* Largeur fixe */
     max-width: 1500px;
@@ -810,8 +822,8 @@ a:focus {
 
 .texttitles3 {
     position: absolute;
-    top: 2450px; /* Position fixe depuis le haut */
-    left: 560px; /* Position fixe depuis la gauche */
+    top: 2700px; /* Position fixe depuis le haut */
+    left: 640px; /* Position fixe depuis la gauche */
     width: 550px; /* Largeur fixe */
     max-width: 1500px;
     height: 680px; /* Hauteur fixe */
@@ -824,8 +836,8 @@ a:focus {
 
 .plottitles4 {
     position: absolute;
-    top: 3300px; /* Position fixe depuis le haut */
-    left: -280px; /* Position fixe depuis la gauche */
+    top: 3500px; /* Position fixe depuis le haut */
+    left: 50px; /* Position fixe depuis la gauche */
     width: 540px; /* Largeur fixe */
     max-width: 1500px;
     height: 450px; /* Hauteur fixe */
@@ -835,8 +847,8 @@ a:focus {
 
 .frametitles4 {
     position: absolute;
-    top: 3230px; /* Position fixe depuis le haut */
-    left: -580px; /* Position fixe depuis la gauche */
+    top: 3430px; /* Position fixe depuis le haut */
+    left: -320px; /* Position fixe depuis la gauche */
     width: 650px; /* Largeur fixe */
     max-width: 1500px;
     height: 590px; /* Hauteur fixe */
@@ -845,8 +857,8 @@ a:focus {
 
 .persotitles4 {
     position: absolute;
-    top: 3240px; /* Position fixe depuis le haut */
-    left: -130px; /* Position fixe depuis la gauche */
+    top: 3440px; /* Position fixe depuis le haut */
+    left: -830px; /* Position fixe depuis la gauche */
     width: 230px; /* Largeur fixe */
     max-width: 1500px;
     height: 650px; /* Hauteur fixe */
@@ -855,9 +867,9 @@ a:focus {
 
 .texttitles4 {
     position: absolute;
-    top: 3315px; /* Position fixe depuis le haut */
-    left: 580px; /* Position fixe depuis la gauche */
-    width: 530px; /* Largeur fixe */
+    top: 3500px; /* Position fixe depuis le haut */
+    left: 640px; /* Position fixe depuis la gauche */
+    width: 550px; /* Largeur fixe */
     max-width: 1500px;
     height: 680px; /* Hauteur fixe */
     text-align: left;
@@ -869,8 +881,8 @@ a:focus {
 
 .plottitles5 {
     position: absolute;
-    top: 4100px; /* Position fixe depuis le haut */
-    left: 238px; /* Position fixe depuis la gauche */
+    top: 4400px; /* Position fixe depuis le haut */
+    left: 250px; /* Position fixe depuis la gauche */
     width: 440px; /* Largeur fixe */
     max-width: 1500px;
     height: 350px; /* Hauteur fixe */
@@ -880,9 +892,9 @@ a:focus {
 
 .frametitles5 {
     position: absolute;
-    top: 4050px; /* Position fixe depuis le haut */
-    left: -55px; /* Position fixe depuis la gauche */
-    width: 535px; /* Largeur fixe */
+    top: 4360px; /* Position fixe depuis le haut */
+    left: -110px; /* Position fixe depuis la gauche */
+    width: 537px; /* Largeur fixe */
     max-width: 1500px;
     height: 446px; /* Hauteur fixe */
     z-index: 3;
@@ -890,8 +902,8 @@ a:focus {
 
 .plottitles6 {
     position: absolute;
-    top: 4530px; /* Position fixe depuis le haut */
-    left: 58px; /* Position fixe depuis la gauche */
+    top: 4830px; /* Position fixe depuis le haut */
+    left: 50px; /* Position fixe depuis la gauche */
     width: 460px; /* Largeur fixe */
     max-width: 1500px;
     height: 350px; /* Hauteur fixe */
@@ -901,8 +913,8 @@ a:focus {
 
 .frametitles6 {
     position: absolute;
-    top: 4480px; /* Position fixe depuis le haut */
-    left: 503px; /* Position fixe depuis la gauche */
+    top: 4780px; /* Position fixe depuis le haut */
+    left: 630px; /* Position fixe depuis la gauche */
     width: 550px; /* Largeur fixe */
     max-width: 1500px;
     height: 447px; /* Hauteur fixe */
@@ -911,8 +923,8 @@ a:focus {
 
 .persotitles5 {
     position: absolute;
-    top: 4240px; /* Position fixe depuis le haut */
-    left: 500px; /* Position fixe depuis la gauche */
+    top: 4550px; /* Position fixe depuis le haut */
+    left: 450px; /* Position fixe depuis la gauche */
     width: 230px; /* Largeur fixe */
     max-width: 1500px;
     height: 300px; /* Hauteur fixe */
@@ -921,8 +933,8 @@ a:focus {
 
 .texttitles5 {
     position: absolute;
-    top: 4110px; /* Position fixe depuis le haut */
-    left: -300px; /* Position fixe depuis la gauche */
+    top: 4400px; /* Position fixe depuis le haut */
+    left: -200px; /* Position fixe depuis la gauche */
     width: 400px; /* Largeur fixe */
     max-width: 1500px;
     height: 680px; /* Hauteur fixe */
@@ -932,8 +944,8 @@ a:focus {
 
 .texttitles52 {
     position: absolute;
-    top: 4650px; /* Position fixe depuis le haut */
-    left: -300px; /* Position fixe depuis la gauche */
+    top: 4920px; /* Position fixe depuis le haut */
+    left: -200px; /* Position fixe depuis la gauche */
     width: 800px; /* Largeur fixe */
     max-width: 1500px;
     height: 680px; /* Hauteur fixe */
@@ -946,8 +958,8 @@ a:focus {
 
 .plottitles7 {
     position: absolute;
-    top: 5300px; /* Position fixe depuis le haut */
-    left: -810px; /* Position fixe depuis la gauche */
+    top: 5700px; /* Position fixe depuis le haut */
+    left: -830px; /* Position fixe depuis la gauche */
     width: 540px; /* Largeur fixe */
     max-width: 1500px;
     height: 450px; /* Hauteur fixe */
@@ -957,8 +969,8 @@ a:focus {
 
 .frametitles7 {
     position: absolute;
-    top: 5230px; /* Position fixe depuis le haut */
-    left: -380px; /* Position fixe depuis la gauche */
+    top: 5630px; /* Position fixe depuis le haut */
+    left: -270px; /* Position fixe depuis la gauche */
     width: 650px; /* Largeur fixe */
     max-width: 1500px;
     height: 590px; /* Hauteur fixe */
@@ -967,9 +979,9 @@ a:focus {
 
 .persotitles7 {
     position: absolute;
-    top: 5300px; /* Position fixe depuis le haut */
-    left: 0px; /* Position fixe depuis la gauche */
-    width: 250px; /* Largeur fixe */
+    top: 5700px; /* Position fixe depuis le haut */
+    left: 30px; /* Position fixe depuis la gauche */
+    width: 230px; /* Largeur fixe */
     max-width: 1500px;
     height: 650px; /* Hauteur fixe */
     z-index: 7;
@@ -977,9 +989,9 @@ a:focus {
 
 .texttitles7 {
     position: absolute;
-    top: 5240px; /* Position fixe depuis le haut */
-    left: 505px; /* Position fixe depuis la gauche */
-    width: 590px; /* Largeur fixe */
+    top: 5700px; /* Position fixe depuis le haut */
+    left: 640px; /* Position fixe depuis la gauche */
+    width: 550px; /* Largeur fixe */
     max-width: 1500px;
     height: 680px; /* Hauteur fixe */
     text-align: left;
@@ -991,7 +1003,7 @@ a:focus {
 /* Conteneur du bouton de scroll pour _titles */
 .scroll-button-container_titles {
     position: absolute; /* Positionnement absolu */
-    top: 6180px; /* Position verticale */
+    top: 6680px; /* Position verticale */
     left: 50%; /* Centre horizontalement */
     transform: translateX(-50%); /* Corrige le centrage exact */
 }
