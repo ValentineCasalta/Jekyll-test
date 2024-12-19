@@ -2152,7 +2152,7 @@ a:focus {
 .persofinal1 {
     position: absolute;
     top: 40px; /* Position fixe depuis le haut */
-    left: -100px; /* Position fixe depuis la gauche */
+    left: -160px; /* Position fixe depuis la gauche */
     width: 320px; /* Largeur fixe */
     max-width: 400px;
     height: 380px; /* Hauteur fixe */
@@ -2163,7 +2163,7 @@ a:focus {
 .textfinal1 {
     position: absolute;
     top: 560px; /* Position fixe depuis le haut */
-    left: -150px; /* Position fixe depuis la gauche */
+    left: -200px; /* Position fixe depuis la gauche */
     width: 420px; /* Largeur fixe */
     max-width: 500px;
     height: 380px; /* Hauteur fixe */
@@ -2174,7 +2174,7 @@ a:focus {
 .persofinal2 {
     position: absolute;
     top: 40px; /* Position fixe depuis le haut */
-    left: -0px; /* Position fixe depuis la gauche */
+    left: -10px; /* Position fixe depuis la gauche */
     width: 320px; /* Largeur fixe */
     max-width: 400px;
     height: 380px; /* Hauteur fixe */
@@ -2185,7 +2185,7 @@ a:focus {
 .textfinal2 {
     position: absolute;
     top: 560px; /* Position fixe depuis le haut */
-    left: 300px; /* Position fixe depuis la gauche */
+    left: 210px; /* Position fixe depuis la gauche */
     width: 420px; /* Largeur fixe */
     max-width: 500px;
     height: 380px; /* Hauteur fixe */
@@ -2196,7 +2196,7 @@ a:focus {
 .persofinal3 {
     position: absolute;
     top: 40px; /* Position fixe depuis le haut */
-    left: 100px; /* Position fixe depuis la gauche */
+    left: 200px; /* Position fixe depuis la gauche */
     width: 320px; /* Largeur fixe */
     max-width: 400px;
     height: 380px; /* Hauteur fixe */
@@ -2207,7 +2207,7 @@ a:focus {
 .textfinal3 {
     position: absolute;
     top: 560px; /* Position fixe depuis le haut */
-    left: 700px; /* Position fixe depuis la gauche */
+    left: 650px; /* Position fixe depuis la gauche */
     width: 420px; /* Largeur fixe */
     max-width: 500px;
     height: 380px; /* Hauteur fixe */
@@ -2217,8 +2217,8 @@ a:focus {
 
 .persofinal4 {
     position: absolute;
-    top: 580px; /* Position fixe depuis le haut */
-    left: 120px; /* Position fixe depuis la gauche */
+    top: 600px; /* Position fixe depuis le haut */
+    left: 15px; /* Position fixe depuis la gauche */
     width: 320px; /* Largeur fixe */
     max-width: 400px;
     height: 380px; /* Hauteur fixe */
@@ -2229,7 +2229,7 @@ a:focus {
 .textfinal4 {
     position: absolute;
     top: 1120px; /* Position fixe depuis le haut */
-    left: 100px; /* Position fixe depuis la gauche */
+    left: -15px; /* Position fixe depuis la gauche */
     width: 400px; /* Largeur fixe */
     max-width: 400px;
     height: 380px; /* Hauteur fixe */
@@ -2239,7 +2239,7 @@ a:focus {
 
 .persofinal5 {
     position: absolute;
-    top: 580px; /* Position fixe depuis le haut */
+    top: 600px; /* Position fixe depuis le haut */
     left: 220px; /* Position fixe depuis la gauche */
     width: 320px; /* Largeur fixe */
     max-width: 400px;
@@ -2251,7 +2251,7 @@ a:focus {
 .textfinal5 {
     position: absolute;
     top: 1120px; /* Position fixe depuis le haut */
-    left: 520px; /* Position fixe depuis la gauche */
+    left: 450px; /* Position fixe depuis la gauche */
     width: 400px; /* Largeur fixe */
     max-width: 400px;
     height: 380px; /* Hauteur fixe */
