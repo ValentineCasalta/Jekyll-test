@@ -661,6 +661,7 @@ a:focus {
     background-size: cover; /* Garde la taille originale de l'image */
 }
 
+
 /* Intro */
 .texttitles0 {
     position: absolute;
@@ -669,14 +670,13 @@ a:focus {
     top: 100px; /* Position fixe depuis le haut */
     text-align: center;
     color: #ffffff;
-    font-family: 'Open Sans', sans-serif;
     z-index: 15;
 }
 
 
 /* PLOT 1 */
 
-.plottitles1 {
+#plottitles1 {
     position: absolute;
     top: 300px; /* Position fixe depuis le haut */
     left: 500px; /* Position fixe depuis la gauche */
@@ -690,7 +690,7 @@ a:focus {
 .frametitles1 {
     position: absolute;
     top: 230px; /* Position fixe depuis le haut */
-    left: 134px; /* Position fixe depuis la gauche */
+    left: 154px; /* Position fixe depuis la gauche */
     width: 660px; /* Largeur fixe */
     max-width: 1500px;
     height: 640px; /* Hauteur fixe */
@@ -704,6 +704,7 @@ a:focus {
     width: 260px; /* Largeur fixe */
     max-width: 1500px;
     height: 600px; /* Hauteur fixe */
+    z-index: 7;
 }
 
 .texttitles1 {
