@@ -1683,7 +1683,7 @@ a:focus {
 .Historical-section {
     position: relative;
     width: 100%; /* Largeur fixe pour éviter tout ajustement */
-    min-height: 4080px; /* Hauteur fixe */
+    min-height: 3300px; /* Hauteur fixe */
     margin: 0 auto; /* Centre horizontalement sur la page */
     padding: 50px 0;
     color: #fff;
@@ -1694,7 +1694,7 @@ a:focus {
 .texthistorical0 {
     position: absolute;
     top: 100px; /* Position fixe depuis le haut */
-    left: -100px; /* Position fixe depuis la gauche */
+    left: -250px; /* Position fixe depuis la gauche */
     width: 1250px; /* Largeur fixe */
     max-width: 1500px;
     height: 680px; /* Hauteur fixe */
@@ -1708,7 +1708,7 @@ a:focus {
 .plothistorical1 {
     position: absolute;
     top: 350px; /* Position fixe depuis le haut */
-    left: 560px; /* Position fixe depuis la gauche */
+    left: 495px; /* Position fixe depuis la gauche */
     width: 540px; /* Largeur fixe */
     max-width: 1500px;
     height: 450px; /* Hauteur fixe */
@@ -1729,7 +1729,7 @@ a:focus {
 .persohistorical1 {
     position: absolute;
     top: 280px; /* Position fixe depuis le haut */
-    left: -260px; /* Position fixe depuis la gauche */
+    left: -240px; /* Position fixe depuis la gauche */
     width: 250px; /* Largeur fixe */
     max-width: 1500px;
     height: 650px; /* Hauteur fixe */
@@ -1739,7 +1739,7 @@ a:focus {
 .texthistorical1 {
     position: absolute;
     top: 380px; /* Position fixe depuis le haut */
-    left: -220px; /* Position fixe depuis la gauche */
+    left: -280px; /* Position fixe depuis la gauche */
     width: 590px; /* Largeur fixe */
     max-width: 1500px;
     height: 680px; /* Hauteur fixe */
@@ -1751,8 +1751,8 @@ a:focus {
 
 .texthistorical2 {
     position: absolute;
-    top: 1270px; /* Position fixe depuis le haut */
-    left: -100px; /* Position fixe depuis la gauche */
+    top: 1170px; /* Position fixe depuis le haut */
+    left: -400px; /* Position fixe depuis la gauche */
     width: 1290px; /* Largeur fixe */
     max-width: 1500px;
     height: 680px; /* Hauteur fixe */
@@ -1762,8 +1762,8 @@ a:focus {
 
 .plothistorical2 {
     position: absolute;
-    top: 1550px; /* Position fixe depuis le haut */
-    left: -200px; /* Position fixe depuis la gauche */
+    top: 1410px; /* Position fixe depuis le haut */
+    left: -270px; /* Position fixe depuis la gauche */
     width: 640px; /* Largeur fixe */
     max-width: 1500px;
     height: 450px; /* Hauteur fixe */
@@ -1773,7 +1773,7 @@ a:focus {
 
 .framehistorical2 {
     position: absolute;
-    top: 1485px; /* Position fixe depuis le haut */
+    top: 1345px; /* Position fixe depuis le haut */
     left: -570px; /* Position fixe depuis la gauche */
     width: 760px; /* Largeur fixe */
     max-width: 1500px;
@@ -1783,18 +1783,18 @@ a:focus {
 
 .persohistorical2 {
     position: absolute;
-    top: 1255px; /* Position fixe depuis le haut */
+    top: 1155px; /* Position fixe depuis le haut */
     left: -560px; /* Position fixe depuis la gauche */
     width: 250px; /* Largeur fixe */
     max-width: 1500px;
-    height: 300px; /* Hauteur fixe */
+    height: 250px; /* Hauteur fixe */
     z-index: 7;
 }
 
 .texthistorical22 {
     position: absolute;
-    top: 1580px; /* Position fixe depuis le haut */
-    left: 520px; /* Position fixe depuis la gauche */
+    top: 1290px; /* Position fixe depuis le haut */
+    left: 480px; /* Position fixe depuis la gauche */
     width: 620px; /* Largeur fixe */
     max-width: 1500px;
     height: 680px; /* Hauteur fixe */
@@ -1806,8 +1806,8 @@ a:focus {
 
 .texthistorical3 {
     position: absolute;
-    top: 2450px; /* Position fixe depuis le haut */
-    left: -130px; /* Position fixe depuis la gauche */
+    top: 2080px; /* Position fixe depuis le haut */
+    left: -520px; /* Position fixe depuis la gauche */
     width: 1290px; /* Largeur fixe */
     max-width: 1500px;
     height: 680px; /* Hauteur fixe */
@@ -1817,8 +1817,8 @@ a:focus {
 
 .plothistorical3 {
     position: absolute;
-    top: 2850px; /* Position fixe depuis le haut */
-    left: 450px; /* Position fixe depuis la gauche */
+    top: 2120px; /* Position fixe depuis le haut */
+    left: 370px; /* Position fixe depuis la gauche */
     width: 640px; /* Largeur fixe */
     max-width: 1500px;
     height: 450px; /* Hauteur fixe */
@@ -1828,8 +1828,8 @@ a:focus {
 
 .framehistorical3 {
     position: absolute;
-    top: 2785px; /* Position fixe depuis le haut */
-    left: 80px; /* Position fixe depuis la gauche */
+    top: 2060px; /* Position fixe depuis le haut */
+    left: 70px; /* Position fixe depuis la gauche */
     width: 755px; /* Largeur fixe */
     max-width: 1500px;
     height: 580px; /* Hauteur fixe */
@@ -1838,18 +1838,18 @@ a:focus {
 
 .persohistorical3 {
     position: absolute;
-    top: 2505px; /* Position fixe depuis le haut */
+    top: 1890px; /* Position fixe depuis le haut */
     left: 230px; /* Position fixe depuis la gauche */
     width: 250px; /* Largeur fixe */
     max-width: 1500px;
-    height: 350px; /* Hauteur fixe */
+    height: 230px; /* Hauteur fixe */
     z-index: 7;
 }
 
 .texthistorical32 {
     position: absolute;
-    top: 2680px; /* Position fixe depuis le haut */
-    left: -220px; /* Position fixe depuis la gauche */
+    top: 2180px; /* Position fixe depuis le haut */
+    left: -300px; /* Position fixe depuis la gauche */
     width: 620px; /* Largeur fixe */
     max-width: 1500px;
     height: 680px; /* Hauteur fixe */
@@ -1861,8 +1861,8 @@ a:focus {
 
 .texthistorical4 {
     position: absolute;
-    top: 3600px; /* Position fixe depuis le haut */
-    left: -120px; /* Position fixe depuis la gauche */
+    top: 2800px; /* Position fixe depuis le haut */
+    left: -220px; /* Position fixe depuis la gauche */
     width: 1220px; /* Largeur fixe */
     max-width: 1500px;
     height: 680px; /* Hauteur fixe */
@@ -1873,8 +1873,8 @@ a:focus {
 /* Conteneur du bouton de scroll pour _titles */
 .scroll-button-container_historical {
     position: absolute;
-    top: 3800px; /* Positionne le bouton à 10px du bas */
-    left: 440px; /* Centre horizontalement */
+    top: 3000px; /* Positionne le bouton à 10px du bas */
+    left: 350px; /* Centre horizontalement */
     z-index: 20;
 }
 
@@ -2079,8 +2079,8 @@ a:focus {
 /* Conteneur du bouton de scroll pour _titles */
 .scroll-button-container_collection {
     position: absolute;
-    top: 2480px; /* Positionne le bouton à 10px du bas */
-    left: 380px; /* Centre horizontalement */
+    top: 2320px; /* Positionne le bouton à 10px du bas */
+    left: 350px; /* Centre horizontalement */
     z-index: 20;
 }
 
