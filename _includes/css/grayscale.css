@@ -273,8 +273,8 @@ a:focus {
 
 .about-section .col-lg-8 {
     position: relative;
-    top: 180%; /* Placer à 50% de la hauteur de la section */
-    left: 35%; /* Placer à 50% de la largeur de la section */
+    top: 50%; /* Placer à 50% de la hauteur de la section */
+    left: 50%; /* Placer à 50% de la largeur de la section */
     transform: translate(-50%, -50%); /* Centrer le texte précisément */
     text-align: center;
 }
