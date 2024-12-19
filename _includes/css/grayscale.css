@@ -9,7 +9,7 @@ body {
     height: 100%;
     font-family: Lora,"Helvetica Neue",Helvetica,Arial,sans-serif;
     color: #fff;
-    background-color: {{ site.color.primary-dark }};
+    /*background-color: {{ site.color.primary-dark }};*/
 }
 
 html {
@@ -45,7 +45,7 @@ p {
 }
 
 a {
-    color: {{ site.color.links }};
+    /*color: {{ site.color.links }};*/
     -webkit-transition: all .2s ease-in-out;
     -moz-transition: all .2s ease-in-out;
     transition: all .2s ease-in-out;
@@ -66,7 +66,7 @@ a:focus {
     border-bottom: 1px solid rgba(255,255,255,.3);
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    background-color: {{ site.color.primary-dark }};
+    /*background-color: {{ site.color.primary-dark }};*/
 }
 
 .navbar-custom .navbar-brand {
@@ -123,7 +123,6 @@ a:focus {
 
     .top-nav-collapse {
         padding: 0;
-        background-color: {{ site.color.primary-dark }};
     }
 
     .navbar-custom.top-nav-collapse {
@@ -141,8 +140,7 @@ a:focus {
     padding: 0; /* Supprime le padding pour éviter les espaces inutiles */
     text-align: center;
     color: #fff;
-    background: url(/img/paysage.png) no-repeat center center fixed; /* Centre l'image et la fixe */
-    background-color: {{ site.color.primary-dark }};
+    background: url(ada.github.io/img/paysage.png) no-repeat center center fixed; /* Centre l'image et la fixe */
     background-size: cover; /* Couvre toute la surface de l'élément en respectant les proportions */
     background-position: center center; /* Centre l'image sur les axes horizontal et vertical */
     background-attachment: fixed; /* Fixe l'image en arrière-plan pour un effet de parallaxe */
@@ -267,8 +265,7 @@ a:focus {
     padding: 100px 0;
     text-align: center;
     color: #ffffff;
-    background: url(/img/portail.png) no-repeat bottom center scroll;
-    background-color: {{ site.color.primary-dark }};
+    background: url(ada.github.io/img/portail.png) no-repeat bottom center scroll;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -295,8 +292,7 @@ a:focus {
     padding: 100px 0;
     text-align: center;
     color: #ffffff;
-    background: url(/img/tap2windows2.png) no-repeat bottom center scroll;
-    background-color: {{ site.color.primary-dark }};
+    background: url(ada.github.io/img/tap2windows2.png) no-repeat bottom center scroll;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -414,8 +410,7 @@ a:focus {
     margin: 0 auto; /* Centre horizontalement sur la page */
     padding: 50px 0;
     color: #fff;
-    background: url(/img/long_paper.png) repeat; /* Maintient la répétition */
-    background-color: {{ site.color.primary-dark }};
+    background: url(ada.github.io/img/long_paper.png) repeat; /* Maintient la répétition */
     background-size: cover; /* Garde la taille originale de l'image */
 }
 
@@ -658,13 +653,12 @@ a:focus {
 
 .Titles-section {
     position: relative;
-    width: 100%; /* Largeur fixe pour éviter tout ajustement */
+    width: 1440px; /* Largeur fixe pour éviter tout ajustement */
     min-height: 6880px; /* Hauteur fixe */
     margin: 0 auto; /* Centre horizontalement sur la page */
     padding: 50px 0;
     color: #fff;
-    background: url(/img/long_paper2.png) repeat; /* Maintient la répétition */
-    background-color: {{ site.color.primary-dark }};
+    background: url(ada.github.io/img/long_paper2.png) repeat; /* Maintient la répétition */
     background-size: cover; /* Garde la taille originale de l'image */
 }
 
@@ -686,7 +680,7 @@ a:focus {
 .plottitles1 {
     position: absolute;
     top: 300px; /* Position fixe depuis le haut */
-    left: 510px; /* Position fixe depuis la gauche */
+    left: 500px; /* Position fixe depuis la gauche */
     width: 1540px; /* Largeur fixe */
     max-width: 1500px;
     height: 270px; /* Hauteur fixe */
@@ -742,7 +736,7 @@ a:focus {
 .plottitles2 {
     position: absolute;
     top: 1420px; /* Position fixe depuis le haut */
-    left: -165px; /* Position fixe depuis la gauche */
+    left: -180px; /* Position fixe depuis la gauche */
     width: 640px; /* Largeur fixe */
     max-width: 1500px;
     height: 380px; /* Hauteur fixe */
@@ -799,7 +793,7 @@ a:focus {
 .plottitles3 {
     position: absolute;
     top: 2640px; /* Position fixe depuis le haut */
-    left: -170px; /* Position fixe depuis la gauche */
+    left: -176px; /* Position fixe depuis la gauche */
     width: 640px; /* Largeur fixe */
     max-width: 1500px;
     height: 380px; /* Hauteur fixe */
@@ -888,8 +882,8 @@ a:focus {
 
 .plottitles5 {
     position: absolute;
-    top: 4405px; /* Position fixe depuis le haut */
-    left: 255px; /* Position fixe depuis la gauche */
+    top: 4400px; /* Position fixe depuis le haut */
+    left: 250px; /* Position fixe depuis la gauche */
     width: 440px; /* Largeur fixe */
     max-width: 1500px;
     height: 350px; /* Hauteur fixe */
@@ -910,7 +904,7 @@ a:focus {
 .plottitles6 {
     position: absolute;
     top: 4830px; /* Position fixe depuis le haut */
-    left: 45px; /* Position fixe depuis la gauche */
+    left: 50px; /* Position fixe depuis la gauche */
     width: 460px; /* Largeur fixe */
     max-width: 1500px;
     height: 350px; /* Hauteur fixe */
@@ -966,7 +960,7 @@ a:focus {
 .plottitles7 {
     position: absolute;
     top: 5700px; /* Position fixe depuis le haut */
-    left: -845px; /* Position fixe depuis la gauche */
+    left: -830px; /* Position fixe depuis la gauche */
     width: 540px; /* Largeur fixe */
     max-width: 1500px;
     height: 450px; /* Hauteur fixe */
@@ -1038,8 +1032,7 @@ a:focus {
     padding: 100px 0;
     text-align: center;
     color: #ffffff;
-    background: url(/img/long_paper4.png) no-repeat bottom center scroll;
-    background-color: {{ site.color.primary-dark }};
+    background: url(ada.github.io/img/long_paper4.png) no-repeat bottom center scroll;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -1251,8 +1244,7 @@ a:focus {
     margin: 0 auto; /* Centre horizontalement sur la page */
     padding: 50px 0;
     color: #fff;
-    background: url(/img/long_paper5.png) repeat; /* Maintient la répétition */
-    background-color: {{ site.color.primary-dark }};
+    background: url(ada.github.io/img/long_paper5.png) repeat; /* Maintient la répétition */
     background-size: cover; /* Garde la taille originale de l'image */
 }
 
@@ -1261,13 +1253,12 @@ a:focus {
 
 .Triggers-section {
     position: relative;
-    width: 100%; /* Largeur fixe pour éviter tout ajustement */
+    width: 1440px; /* Largeur fixe pour éviter tout ajustement */
     min-height: 4080px; /* Hauteur fixe */
     margin: 0 auto; /* Centre horizontalement sur la page */
     padding: 50px 0;
     color: #fff;
-    background: url(/img/long_paper3.png) repeat; /* Maintient la répétition */
-    background-color: {{ site.color.primary-dark }};
+    background: url(ada.github.io/img/long_paper3.png) repeat; /* Maintient la répétition */
     background-size: cover; /* Garde la taille originale de l'image */
 }
 
@@ -1319,7 +1310,7 @@ a:focus {
 .graphtrigger1 {
     position: absolute;
     top: 930px; /* Position fixe depuis le haut */
-    left: -760px; /* Position fixe depuis la gauche */
+    left: -750px; /* Position fixe depuis la gauche */
     width: 300px; /* Largeur fixe */
     max-width: 500px;
     height: 300px; /* Hauteur fixe */
@@ -1330,7 +1321,7 @@ a:focus {
 .graphtrigger2 {
     position: absolute;
     top: 1030px; /* Position fixe depuis le haut */
-    left: 710px; /* Position fixe depuis la gauche */
+    left: 700px; /* Position fixe depuis la gauche */
     width: 300px; /* Largeur fixe */
     max-width: 500px;
     height: 300px; /* Hauteur fixe */
@@ -1374,7 +1365,7 @@ a:focus {
 .graphtrigger6 {
     position: absolute;
     top: 2030px; /* Position fixe depuis le haut */
-    left: 410px; /* Position fixe depuis la gauche */
+    left: 400px; /* Position fixe depuis la gauche */
     width: 300px; /* Largeur fixe */
     max-width: 500px;
     height: 300px; /* Hauteur fixe */
@@ -1462,7 +1453,7 @@ a:focus {
     position: absolute;
     top: 878px; /* Position fixe depuis le haut */
     left: -160px; /* Position fixe depuis la gauche */
-    width: 415px; /* Largeur fixe */
+    width: 410px; /* Largeur fixe */
     max-width: 1500px;
     height: 390px; /* Hauteur fixe */
     z-index: 3;
@@ -1472,7 +1463,7 @@ a:focus {
     position: absolute;
     top: 980px; /* Position fixe depuis le haut */
     left: 360px; /* Position fixe depuis la gauche */
-    width: 415px; /* Largeur fixe */
+    width: 410px; /* Largeur fixe */
     max-width: 1500px;
     height: 390px; /* Hauteur fixe */
     z-index: 3;
@@ -1481,8 +1472,8 @@ a:focus {
 .frametriggers3 {
     position: absolute;
     top: 1340px; /* Position fixe depuis le haut */
-    left: -788px; /* Position fixe depuis la gauche */
-    width: 415px; /* Largeur fixe */
+    left: -780px; /* Position fixe depuis la gauche */
+    width: 410px; /* Largeur fixe */
     max-width: 1500px;
     height: 390px; /* Hauteur fixe */
     z-index: 3;
@@ -1491,8 +1482,8 @@ a:focus {
 .frametriggers4 {
     position: absolute;
     top: 1500px; /* Position fixe depuis le haut */
-    left: 698px; /* Position fixe depuis la gauche */
-    width: 415px; /* Largeur fixe */
+    left: 690px; /* Position fixe depuis la gauche */
+    width: 410px; /* Largeur fixe */
     max-width: 1500px;
     height: 390px; /* Hauteur fixe */
     z-index: 3;
@@ -1501,8 +1492,8 @@ a:focus {
 .frametriggers5 {
     position: absolute;
     top: 1810px; /* Position fixe depuis le haut */
-    left: -478px; /* Position fixe depuis la gauche */
-    width: 415px; /* Largeur fixe */
+    left: -469px; /* Position fixe depuis la gauche */
+    width: 410px; /* Largeur fixe */
     max-width: 1500px;
     height: 390px; /* Hauteur fixe */
     z-index: 3;
@@ -1512,7 +1503,7 @@ a:focus {
     position: absolute;
     top: 1983px; /* Position fixe depuis le haut */
     left: 61px; /* Position fixe depuis la gauche */
-    width: 415px; /* Largeur fixe */
+    width: 410px; /* Largeur fixe */
     max-width: 1500px;
     height: 390px; /* Hauteur fixe */
     z-index: 3;
@@ -1534,7 +1525,7 @@ a:focus {
 .graphtrigger7 {
     position: absolute;
     top: 2750px; /* Position fixe depuis le haut */
-    left: -143px; /* Position fixe depuis la gauche */
+    left: -150px; /* Position fixe depuis la gauche */
     width: 300px; /* Largeur fixe */
     max-width: 500px;
     height: 300px; /* Hauteur fixe */
@@ -1545,7 +1536,7 @@ a:focus {
 .graphtrigger8 {
     position: absolute;
     top: 2750px; /* Position fixe depuis le haut */
-    left: -8px; /* Position fixe depuis la gauche */
+    left: -10px; /* Position fixe depuis la gauche */
     width: 300px; /* Largeur fixe */
     max-width: 500px;
     height: 300px; /* Hauteur fixe */
@@ -1556,7 +1547,7 @@ a:focus {
 .graphtrigger9 {
     position: absolute;
     top: 2750px; /* Position fixe depuis le haut */
-    left: 110px; /* Position fixe depuis la gauche */
+    left: 120px; /* Position fixe depuis la gauche */
     width: 300px; /* Largeur fixe */
     max-width: 500px;
     height: 300px; /* Hauteur fixe */
@@ -1611,7 +1602,7 @@ a:focus {
     position: absolute;
     top: 2710px; /* Position fixe depuis le haut */
     left: -490px; /* Position fixe depuis la gauche */
-    width: 415px; /* Largeur fixe */
+    width: 410px; /* Largeur fixe */
     max-width: 1500px;
     height: 360px; /* Hauteur fixe */
     z-index: 3;
@@ -1621,7 +1612,7 @@ a:focus {
     position: absolute;
     top: 2710px; /* Position fixe depuis le haut */
     left: -355px; /* Position fixe depuis la gauche */
-    width: 415px; /* Largeur fixe */
+    width: 410px; /* Largeur fixe */
     max-width: 1500px;
     height: 360px; /* Hauteur fixe */
     z-index: 3;
@@ -1631,7 +1622,7 @@ a:focus {
     position: absolute;
     top: 2710px; /* Position fixe depuis le haut */
     left: 710px; /* Position fixe depuis la gauche */
-    width: 415px; /* Largeur fixe */
+    width: 410px; /* Largeur fixe */
     max-width: 1500px;
     height: 360px; /* Hauteur fixe */
     z-index: 3;
@@ -1641,7 +1632,7 @@ a:focus {
     position: absolute;
     top: 3257px; /* Position fixe depuis le haut */
     left: -490px; /* Position fixe depuis la gauche */
-    width: 415px; /* Largeur fixe */
+    width: 410px; /* Largeur fixe */
     max-width: 1500px;
     height: 360px; /* Hauteur fixe */
     z-index: 3;
@@ -1651,7 +1642,7 @@ a:focus {
     position: absolute;
     top: 3257px; /* Position fixe depuis le haut */
     left: -350px; /* Position fixe depuis la gauche */
-    width: 415px; /* Largeur fixe */
+    width: 410px; /* Largeur fixe */
     max-width: 1500px;
     height: 360px; /* Hauteur fixe */
     z-index: 3;
@@ -1661,7 +1652,7 @@ a:focus {
     position: absolute;
     top: 3257px; /* Position fixe depuis le haut */
     left: 710px; /* Position fixe depuis la gauche */
-    width: 415px; /* Largeur fixe */
+    width: 410px; /* Largeur fixe */
     max-width: 1500px;
     height: 360px; /* Hauteur fixe */
     z-index: 3;
@@ -1709,8 +1700,7 @@ a:focus {
     margin: 0 auto; /* Centre horizontalement sur la page */
     padding: 50px 0;
     color: #fff;
-    background: url(/img/long_paper2.png) repeat; /* Maintient la répétition */
-    background-color: {{ site.color.primary-dark }};
+    background: url(ada.github.io/img/long_paper2.png) repeat; /* Maintient la répétition */
     background-size: cover; /* Garde la taille originale de l'image */
 }
 
@@ -1911,8 +1901,7 @@ a:focus {
     margin: 0 auto; /* Centre horizontalement sur la page */
     padding: 50px 0;
     color: #fff;
-    background: url(/img/long_paper.png) repeat; /* Maintient la répétition */
-    background-color: {{ site.color.primary-dark }};
+    background: url(ada.github.io/img/long_paper.png) repeat; /* Maintient la répétition */
     background-size: cover; /* Garde la taille originale de l'image */
 }
 
@@ -2119,8 +2108,7 @@ a:focus {
     padding: 100px 0;
     text-align: center;
     color: #ffffff;
-    background: url(/img/portail.png) no-repeat bottom center scroll;
-    background-color: {{ site.color.primary-dark }};
+    background: url(ada.github.io/img/portail.png) no-repeat bottom center scroll;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -2168,8 +2156,7 @@ a:focus {
     margin: 0 auto; /* Centre horizontalement sur la page */
     padding: 50px 0;
     color: #fff;
-    background: url(/img/long_paper.png) repeat; /* Maintient la répétition */
-    background-color: {{ site.color.primary-dark }};
+    background: url(ada.github.io/img/long_paper.png) repeat; /* Maintient la répétition */
     background-size: cover; /* Garde la taille originale de l'image */
 }
 
@@ -2333,17 +2320,17 @@ a:focus {
 }
 
 .btn-default {
-    border: 1px solid {{ site.color.links }};
-    color: {{ site.color.links }};
+    /*border: 1px solid {{ site.color.links }};*/
+    /*color: {{ site.color.links }};*/
     background-color: transparent;
 }
 
 .btn-default:hover,
 .btn-default:focus {
-    border: 1px solid {{ site.color.links }};
+    /*border: 1px solid {{ site.color.links }};*/
     outline: 0;
-    color: {{ site.color.primary-dark }};
-    background-color: {{ site.color.links }};
+    /*color: {{ site.color.primary-dark }};*/
+    /*background-color: {{ site.color.links }};*/
 }
 
 ul.banner-social-buttons {
