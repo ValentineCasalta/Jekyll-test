@@ -140,7 +140,7 @@ a:focus {
     padding: 0; /* Supprime le padding pour éviter les espaces inutiles */
     text-align: center;
     color: #fff;
-    background: url(/Jekyll-test/img/paysage.png) no-repeat center center fixed; /* Centre l'image et la fixe */ 
+    background: url(/Jekyll-test/img/paysage.png) no-repeat center center fixed; /* Centre l'image et la fixe */
     background-size: cover; /* Couvre toute la surface de l'élément en respectant les proportions */
     background-position: center center; /* Centre l'image sur les axes horizontal et vertical */
     background-attachment: fixed; /* Fixe l'image en arrière-plan pour un effet de parallaxe */
@@ -266,10 +266,9 @@ a:focus {
     text-align: center;
     color: #ffffff;
     background: url(/Jekyll-test/img/portail.png) no-repeat bottom center scroll;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
+    background-size: cover; /* Couvre toute la surface de l'élément en respectant les proportions */
+    background-position: center center; /* Centre l'image sur les axes horizontal et vertical */
+    background-attachment: fixed; /* Fixe l'image en arrière-plan pour un effet de parallaxe */
 }
 
 .about-section .col-lg-8 {
@@ -653,7 +652,7 @@ a:focus {
 
 .Titles-section {
     position: relative;
-    width: 1440px; /* Largeur fixe pour éviter tout ajustement */
+    width: 100%; /* Largeur fixe pour éviter tout ajustement */
     min-height: 6880px; /* Hauteur fixe */
     margin: 0 auto; /* Centre horizontalement sur la page */
     padding: 50px 0;
@@ -1239,7 +1238,7 @@ a:focus {
 
 .Tropes-section {
     position: relative;
-    width: 1440px; /* Largeur fixe pour éviter tout ajustement */
+    width: 100%; /* Largeur fixe pour éviter tout ajustement */
     min-height: 3080px; /* Hauteur fixe */
     margin: 0 auto; /* Centre horizontalement sur la page */
     padding: 50px 0;
@@ -1253,7 +1252,7 @@ a:focus {
 
 .Triggers-section {
     position: relative;
-    width: 1440px; /* Largeur fixe pour éviter tout ajustement */
+    width: 100%; /* Largeur fixe pour éviter tout ajustement */
     min-height: 4080px; /* Hauteur fixe */
     margin: 0 auto; /* Centre horizontalement sur la page */
     padding: 50px 0;
@@ -1695,7 +1694,7 @@ a:focus {
 
 .Historical-section {
     position: relative;
-    width: 1440px; /* Largeur fixe pour éviter tout ajustement */
+    width: 100%; /* Largeur fixe pour éviter tout ajustement */
     min-height: 4080px; /* Hauteur fixe */
     margin: 0 auto; /* Centre horizontalement sur la page */
     padding: 50px 0;
